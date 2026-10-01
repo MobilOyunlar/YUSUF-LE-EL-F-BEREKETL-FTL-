@@ -1,0 +1,9 @@
+{
+  "version": "0.27",
+  "events": [
+    {"id":"weekly_harvest_festival","type":"weekly","duration_days":7,"score_key":"harvest_points","rewards":["coins","xp","diamonds","badge"]},
+    {"id":"monthly_production_challenge","type":"monthly","duration_days":30,"score_key":"production_points","rewards":["coins","diamonds","cosmetic"]},
+    {"id":"seasonal_farm_fair","type":"seasonal","score_key":"farm_value","rewards":["coins","xp","exclusive_decoration"]}
+  ],
+  "anti_cheat": {"server_authoritative": true, "event_score_validation": true, "reward_claim_once": true}
+}

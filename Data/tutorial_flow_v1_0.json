@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "principle": "Teach by doing; unlock systems gradually.",
+  "steps": [
+    "movement_and_camera",
+    "collect_resources",
+    "clear_land",
+    "plant_crop",
+    "wait_and_harvest",
+    "sell_product",
+    "buy_chicken",
+    "collect_egg",
+    "buy_cow",
+    "collect_milk",
+    "use_mill",
+    "complete_order",
+    "expand_land",
+    "decorate_home_and_farm"
+  ],
+  "ui_rules": {
+    "locked_content_shows_level": "true",
+    "locked_content_shows_diamond_option": "true",
+    "tutorial_does_not_block_free_exploration_of_unlocked_systems": "true"
+  }
+}

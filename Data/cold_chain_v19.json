@@ -1,0 +1,8 @@
+{
+  "storage_types": {
+    "warehouse": {"fixed": true, "perishable": false},
+    "cold_storage": {"fixed": true, "temperature_c": 4, "perishable_rate": 0.25},
+    "freezer": {"fixed": true, "temperature_c": -18, "perishable_rate": 0.05}
+  },
+  "rule": "Perishable products lose freshness over time; correct storage slows the loss."
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "title": "Yusuf ile Elif: Bereketli Çiftliği",
+  "status": "final_project_candidate",
+  "engine_target": "Godot 3.6.3",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "included_systems": "All systems accumulated through V0.45 plus story/tutorial/progression/early-diamond-unlock.",
+  "important_note": "Real-device testing, store configuration, signing credentials, production backend credentials, and final commercial QA remain external deployment steps."
+}

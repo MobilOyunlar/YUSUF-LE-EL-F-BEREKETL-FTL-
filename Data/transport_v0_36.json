@@ -1,0 +1,26 @@
+{
+  "version": "0.36",
+  "vehicles": [
+    {"id":"farm_truck","type":"truck","capacity":120,"fuel_per_km":0.8,"speed":1.0,"unlocks_at":8},
+    {"id":"delivery_truck","type":"truck","capacity":300,"fuel_per_km":1.1,"speed":1.1,"unlocks_at":14},
+    {"id":"freight_train","type":"train","capacity":1200,"fuel_per_km":2.5,"speed":1.4,"unlocks_at":20},
+    {"id":"cargo_boat","type":"boat","capacity":900,"fuel_per_km":1.8,"speed":1.2,"unlocks_at":24}
+  ],
+  "routes": [
+    {"id":"farm_to_village","mode":"truck","distance":5,"time":60,"toll":0},
+    {"id":"village_to_town","mode":"truck","distance":12,"time":120,"toll":10},
+    {"id":"town_to_region","mode":"train","distance":35,"time":240,"toll":35},
+    {"id":"coast_to_region","mode":"boat","distance":28,"time":210,"toll":25}
+  ],
+  "cargo_rules": {
+    "perishable": {"max_hours": 12, "quality_loss_per_hour": 0.02},
+    "frozen": {"max_hours": 36, "quality_loss_per_hour": 0.005},
+    "normal": {"max_hours": 72, "quality_loss_per_hour": 0.01}
+  },
+  "logistics": {
+    "fuel_station_required": true,
+    "loading_time_seconds_per_100_units": 10,
+    "unloading_time_seconds_per_100_units": 8,
+    "failed_delivery_returns_cargo": true
+  }
+}

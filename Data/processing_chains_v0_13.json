@@ -1,0 +1,13 @@
+{
+  "version":"0.13",
+  "methods":["butchery","filleting","smoking","salting","drying","canning","brining","fermenting","aging","cooking"],
+  "chains":[
+    {"id":"beef_chain","inputs":["beef"],"steps":["ground_beef","beef_cubes","beef_steak","smoked_beef","beef_sausage","beef_salami","meatball","burger_patty"]},
+    {"id":"lamb_chain","inputs":["lamb_meat"],"steps":["ground_lamb","lamb_cubes","lamb_chop","smoked_lamb","lamb_meatball"]},
+    {"id":"goat_chain","inputs":["goat_meat"],"steps":["ground_goat","goat_cubes","smoked_goat","goat_meatball"]},
+    {"id":"chicken_chain","inputs":["chicken_meat"],"steps":["chicken_breast","chicken_thigh","chicken_wing","smoked_chicken","chicken_sausage","chicken_burger"]},
+    {"id":"fish_chain","inputs":["any_fish"],"steps":["cleaned_fish","fish_fillet","salted_fish","dried_fish","smoked_fish","canned_fish","cooked_fish"]},
+    {"id":"seafood_chain","inputs":["shrimp","crab","lobster","mussel","octopus","squid","scallop"],"steps":["cleaned_seafood","seafood_meat","steamed_seafood","smoked_seafood","canned_seafood"]}
+  ],
+  "super_machine_rule":{"normal_machine_id_suffix":"","super_machine_id_suffix":"_super","super_speed_multiplier":0.6,"super_capacity_multiplier":2.0,"premium_visual":true}
+}

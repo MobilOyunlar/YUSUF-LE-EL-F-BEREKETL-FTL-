@@ -1,0 +1,11 @@
+{
+  "version":"0.14",
+  "systems":[
+    {"id":"cold_storage","purpose":"protect_perishable_products","energy_per_hour":4,"capacity":100},
+    {"id":"freezer_room","purpose":"extend_meat_fish_storage","energy_per_hour":7,"capacity":180},
+    {"id":"delivery_truck","purpose":"bulk_orders","capacity":50,"fuel_per_route":8},
+    {"id":"fish_market_booth","purpose":"special_fish_orders","fixed":true},
+    {"id":"butcher_shop","purpose":"special_meat_orders","fixed":true}
+  ],
+  "spoilage":{"enabled_for_selected_products":true,"quality_loss_over_time":true,"cold_storage_reduces_loss":true}
+}

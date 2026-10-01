@@ -1,0 +1,12 @@
+{
+  "system":"crop_decay",
+  "principle":"harvest_before_decay_or_crop_becomes_unusable",
+  "stages":[
+    {"id":"ripe","harvestable":true,"quality_multiplier":1.0,"useable":true},
+    {"id":"overripe","harvestable":true,"quality_multiplier":0.75,"useable":true},
+    {"id":"spoiling","harvestable":true,"quality_multiplier":0.35,"useable":true},
+    {"id":"rotten","harvestable":false,"quality_multiplier":0.0,"useable":false}
+  ],
+  "rules":{"decay_starts_after_ripe":true,"weather_can_accelerate":true,"storage_does_not_reverse_field_decay":true,"rotten_crop_cannot_be_sold_or_used_in_recipes":true,"rotten_crop_may_be_sent_to_compost":true},
+  "compost_exception":{"enabled":true,"output":"compost_material"}
+}

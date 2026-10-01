@@ -1,0 +1,50 @@
+{
+  "smokehouse": {
+    "level": 1,
+    "capacity": 2,
+    "energy": 8,
+    "fuel": 1,
+    "super_variant": "super_smokehouse"
+  },
+  "super_smokehouse": {
+    "level": 1,
+    "capacity": 4,
+    "energy": 10,
+    "fuel": 1,
+    "speed_multiplier": 2.0
+  },
+  "sausage_machine": {
+    "level": 1,
+    "capacity": 2,
+    "energy": 7,
+    "super_variant": "super_sausage_machine"
+  },
+  "super_sausage_machine": {
+    "level": 1,
+    "capacity": 4,
+    "energy": 9,
+    "speed_multiplier": 2.0
+  },
+  "cold_storage": {
+    "level": 1,
+    "capacity": 250,
+    "energy_per_hour": 2
+  },
+  "freezer_room": {
+    "level": 1,
+    "capacity": 200,
+    "energy_per_hour": 3
+  },
+  "smoothie_machine": {
+    "level": 1,
+    "capacity": 2,
+    "energy": 5,
+    "super_variant": "super_smoothie_machine"
+  },
+  "super_smoothie_machine": {
+    "level": 1,
+    "capacity": 4,
+    "energy": 7,
+    "speed_multiplier": 2.0
+  }
+}

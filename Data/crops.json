@@ -1,0 +1,20 @@
+{
+  "wheat": {
+    "growth_seconds": 120,
+    "harvest_item": "wheat",
+    "yield": 2,
+    "xp": 5
+  },
+  "corn": {
+    "growth_seconds": 150,
+    "harvest_item": "corn",
+    "yield": 2,
+    "xp": 6
+  },
+  "rye": {
+    "growth_seconds": 180,
+    "harvest_item": "rye",
+    "yield": 2,
+    "xp": 7
+  }
+}

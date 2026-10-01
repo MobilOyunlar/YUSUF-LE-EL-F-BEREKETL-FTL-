@@ -1,0 +1,7 @@
+{
+  "version":"0.13",
+  "status":"internal-development",
+  "focus":["animal_meat","fish","seafood","smoking","advanced_processing","breeds","quality","automation"],
+  "new_data_files":["animal_production_v0_13.json","fish_seafood_v0_13.json","processing_chains_v0_13.json","machines_v0_13.json","recipes_v0_13_meat_fish.json","breeds_v0_13.json","automation_v0_13.json","product_quality_v0_13.json"],
+  "final_release":false
+}

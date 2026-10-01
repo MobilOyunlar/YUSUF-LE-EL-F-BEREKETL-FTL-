@@ -1,0 +1,9 @@
+{
+  "version":"0.40",
+  "states":["ripe","overripe","wilting","rotten"],
+  "harvest_window_seconds":3600,
+  "quality_loss_per_stage":20,
+  "rotten_rules":{"usable_for_recipes":false,"sellable":false,"usable_for_production":false,"compostable":true},
+  "weather_modifiers":{"rain":0.9,"heat":1.2,"cold":1.1,"normal":1.0},
+  "season_modifiers":{"spring":1.0,"summer":1.2,"autumn":1.0,"winter":0.8}
+}

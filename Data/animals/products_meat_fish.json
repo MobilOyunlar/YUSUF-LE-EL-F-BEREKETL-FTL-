@@ -1,0 +1,152 @@
+{
+  "beef_carcass": {
+    "name": "Dana Eti",
+    "category": "meat",
+    "stage": 1
+  },
+  "beef_mince": {
+    "name": "Dana Kıyma",
+    "category": "meat",
+    "stage": 2
+  },
+  "beef_cubed": {
+    "name": "Kuşbaşı Dana",
+    "category": "meat",
+    "stage": 2
+  },
+  "beef_steak": {
+    "name": "Biftek",
+    "category": "meat",
+    "stage": 2
+  },
+  "lamb_carcass": {
+    "name": "Kuzu Eti",
+    "category": "meat",
+    "stage": 1
+  },
+  "lamb_mince": {
+    "name": "Kuzu Kıyma",
+    "category": "meat",
+    "stage": 2
+  },
+  "lamb_cubed": {
+    "name": "Kuşbaşı Kuzu",
+    "category": "meat",
+    "stage": 2
+  },
+  "goat_meat": {
+    "name": "Keçi Eti",
+    "category": "meat",
+    "stage": 1
+  },
+  "goat_mince": {
+    "name": "Keçi Kıyma",
+    "category": "meat",
+    "stage": 2
+  },
+  "goat_cubed": {
+    "name": "Kuşbaşı Keçi",
+    "category": "meat",
+    "stage": 2
+  },
+  "chicken_whole": {
+    "name": "Bütün Tavuk",
+    "category": "meat",
+    "stage": 1
+  },
+  "chicken_breast": {
+    "name": "Tavuk Göğsü",
+    "category": "meat",
+    "stage": 2
+  },
+  "chicken_thigh": {
+    "name": "Tavuk But",
+    "category": "meat",
+    "stage": 2
+  },
+  "chicken_wing": {
+    "name": "Tavuk Kanadı",
+    "category": "meat",
+    "stage": 2
+  },
+  "turkey_meat": {
+    "name": "Hindi Eti",
+    "category": "meat",
+    "stage": 1
+  },
+  "turkey_breast": {
+    "name": "Hindi Göğsü",
+    "category": "meat",
+    "stage": 2
+  },
+  "turkey_mince": {
+    "name": "Hindi Kıyma",
+    "category": "meat",
+    "stage": 2
+  },
+  "duck_meat": {
+    "name": "Ördek Eti",
+    "category": "meat",
+    "stage": 1
+  },
+  "duck_breast": {
+    "name": "Ördek Göğsü",
+    "category": "meat",
+    "stage": 2
+  },
+  "goose_meat": {
+    "name": "Kaz Eti",
+    "category": "meat",
+    "stage": 1
+  },
+  "goose_breast": {
+    "name": "Kaz Göğsü",
+    "category": "meat",
+    "stage": 2
+  },
+  "rabbit_meat": {
+    "name": "Tavşan Eti",
+    "category": "meat",
+    "stage": 1
+  },
+  "ostrich_meat": {
+    "name": "Deve Kuşu Eti",
+    "category": "meat",
+    "stage": 1
+  },
+  "smoked_beef": {
+    "name": "Tütsülenmiş Dana",
+    "category": "smoked_meat",
+    "stage": 3
+  },
+  "smoked_lamb": {
+    "name": "Tütsülenmiş Kuzu",
+    "category": "smoked_meat",
+    "stage": 3
+  },
+  "smoked_goat": {
+    "name": "Tütsülenmiş Keçi Eti",
+    "category": "smoked_meat",
+    "stage": 3
+  },
+  "smoked_chicken": {
+    "name": "Tütsülenmiş Tavuk",
+    "category": "smoked_meat",
+    "stage": 3
+  },
+  "smoked_trout": {
+    "name": "Tütsülenmiş Alabalık",
+    "category": "smoked_fish",
+    "stage": 3
+  },
+  "smoked_salmon": {
+    "name": "Tütsülenmiş Somon",
+    "category": "smoked_fish",
+    "stage": 3
+  },
+  "smoked_anchovy": {
+    "name": "Tütsülenmiş Hamsi",
+    "category": "smoked_fish",
+    "stage": 3
+  }
+}

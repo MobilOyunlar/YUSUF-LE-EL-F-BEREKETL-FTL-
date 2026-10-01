@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "normal_unlock_requires": [
+    "player_level",
+    "story_progress",
+    "optional_resources"
+  ],
+  "diamond_early_unlock": true,
+  "rules": {
+    "no_level_requirement_when_using_diamonds": true,
+    "diamond_cost_increases_with_content_tier": true,
+    "purchase_does_not_skip_required_tutorial_for_core_controls": true
+  },
+  "content": [
+    {
+      "id": "chicken",
+      "type": "animal",
+      "level": 4,
+      "diamond_unlock": 150
+    },
+    {
+      "id": "cow",
+      "type": "animal",
+      "level": 5,
+      "diamond_unlock": 250
+    },
+    {
+      "id": "mill",
+      "type": "machine",
+      "level": 6,
+      "diamond_unlock": 300
+    },
+    {
+      "id": "sheep",
+      "type": "animal",
+      "level": 8,
+      "diamond_unlock": 400
+    },
+    {
+      "id": "oven",
+      "type": "machine",
+      "level": 10,
+      "diamond_unlock": 500
+    },
+    {
+      "id": "cheese_machine",
+      "type": "machine",
+      "level": 15,
+      "diamond_unlock": 750
+    },
+    {
+      "id": "bee_hive",
+      "type": "animal_building",
+      "level": 18,
+      "diamond_unlock": 900
+    },
+    {
+      "id": "tractor",
+      "type": "vehicle",
+      "level": 20,
+      "diamond_unlock": 1200
+    },
+    {
+      "id": "fishing",
+      "type": "feature",
+      "level": 25,
+      "diamond_unlock": 1500
+    },
+    {
+      "id": "mining",
+      "type": "feature",
+      "level": 30,
+      "diamond_unlock": 2000
+    },
+    {
+      "id": "forest_region",
+      "type": "region",
+      "level": 35,
+      "diamond_unlock": 2500
+    },
+    {
+      "id": "town",
+      "type": "region",
+      "level": 40,
+      "diamond_unlock": 3500
+    },
+    {
+      "id": "island",
+      "type": "region",
+      "level": 50,
+      "diamond_unlock": 5000
+    }
+  ]
+}

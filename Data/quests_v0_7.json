@@ -1,0 +1,35 @@
+{
+  "main_yusuf_001": {
+    "giver": "yusuf",
+    "type": "main",
+    "goal": {
+      "wheat": 5
+    },
+    "rewards": {
+      "coins": 250,
+      "diamonds": 5
+    }
+  },
+  "main_elif_001": {
+    "giver": "elif",
+    "type": "main",
+    "goal": {
+      "milk": 3
+    },
+    "rewards": {
+      "coins": 300,
+      "diamonds": 5
+    }
+  },
+  "daily_001": {
+    "giver": "system",
+    "type": "daily",
+    "goal": {
+      "harvest": 10
+    },
+    "rewards": {
+      "coins": 500,
+      "diamonds": 2
+    }
+  }
+}

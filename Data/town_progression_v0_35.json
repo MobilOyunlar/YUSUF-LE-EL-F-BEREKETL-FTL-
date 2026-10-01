@@ -1,0 +1,14 @@
+{
+  "system": "village_town_progression",
+  "stages": [
+    {"id":"village","name_tr":"Köy","level":1,"population":50,"services":["market","well","small_road"],"unlocks":["village_orders","local_visitors"]},
+    {"id":"town","name_tr":"Kasaba","level":2,"population":250,"services":["bakery","clinic","school","workshop"],"unlocks":["town_orders","delivery_board","community_projects"]},
+    {"id":"advanced_town","name_tr":"Gelişmiş Kasaba","level":3,"population":1000,"services":["bank","restaurant","warehouse","transport_hub"],"unlocks":["advanced_orders","regional_trade","town_events"]},
+    {"id":"agricultural_region","name_tr":"Tarım Bölgesi","level":4,"population":3000,"services":["food_market","processing_center","rail_hub","export_center"],"unlocks":["regional_contracts","large_orders","regional_events"]}
+  ],
+  "growth": {
+    "population_sources":["npc_houses","jobs","services","community_projects"],
+    "requirements":["coins","building_materials","farm_products","quests"],
+    "upgrade_rule":"data_driven"
+  }
+}

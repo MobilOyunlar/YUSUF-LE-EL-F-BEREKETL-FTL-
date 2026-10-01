@@ -1,0 +1,11 @@
+{
+  "version":"0.14",
+  "upgrade_rules":{"levels":10,"costs_scale":"progressive","diamonds_can_instant_unlock":true},
+  "equipment":{
+    "tractor":{"level_stats":[{"level":1,"tank_l":50,"speed":1.0,"batch_fields":1},{"level":2,"tank_l":70,"speed":1.1,"batch_fields":2},{"level":3,"tank_l":95,"speed":1.2,"batch_fields":3},{"level":4,"tank_l":125,"speed":1.3,"batch_fields":4},{"level":5,"tank_l":160,"speed":1.45,"batch_fields":5}]},
+    "smokehouse":{"level_stats":[{"level":1,"slots":2,"speed":1.0},{"level":2,"slots":3,"speed":1.15},{"level":3,"slots":4,"speed":1.3},{"level":4,"slots":6,"speed":1.45},{"level":5,"slots":8,"speed":1.6}]},
+    "butchery":{"level_stats":[{"level":1,"slots":2,"speed":1.0},{"level":2,"slots":3,"speed":1.15},{"level":3,"slots":5,"speed":1.3},{"level":4,"slots":7,"speed":1.45},{"level":5,"slots":10,"speed":1.6}]},
+    "canner":{"level_stats":[{"level":1,"slots":2,"speed":1.0},{"level":2,"slots":3,"speed":1.15},{"level":3,"slots":5,"speed":1.3},{"level":4,"slots":7,"speed":1.45},{"level":5,"slots":10,"speed":1.6}]}
+  },
+  "super_machine_rule":{"speed_multiplier":0.6,"capacity_multiplier":2.0,"visual_tier":"premium","diamond_purchase":true}
+}

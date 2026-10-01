@@ -1,0 +1,26 @@
+{
+  "version": "0.38",
+  "seasons": [
+    {"id":"spring","days":28,"crop_growth_mult":1.10,"rain_chance":0.35,"bee_activity":1.20},
+    {"id":"summer","days":28,"crop_growth_mult":1.00,"rain_chance":0.12,"bee_activity":1.35},
+    {"id":"autumn","days":28,"crop_growth_mult":0.95,"rain_chance":0.30,"bee_activity":0.85},
+    {"id":"winter","days":28,"crop_growth_mult":0.65,"rain_chance":0.40,"bee_activity":0.45}
+  ],
+  "weather": [
+    {"id":"clear","crop_growth_mult":1.00,"irrigation_need":1.00,"solar_output":1.20,"wind_output":1.00},
+    {"id":"cloudy","crop_growth_mult":0.95,"irrigation_need":0.90,"solar_output":0.65,"wind_output":1.05},
+    {"id":"rain","crop_growth_mult":1.05,"irrigation_need":0.20,"solar_output":0.25,"wind_output":1.15},
+    {"id":"storm","crop_growth_mult":0.80,"irrigation_need":0.00,"solar_output":0.10,"wind_output":1.40,"risk":"low_environmental_damage"},
+    {"id":"snow","crop_growth_mult":0.55,"irrigation_need":0.10,"solar_output":0.35,"wind_output":1.10},
+    {"id":"fog","crop_growth_mult":0.90,"irrigation_need":0.60,"solar_output":0.20,"wind_output":0.85},
+    {"id":"heatwave","crop_growth_mult":0.75,"irrigation_need":1.45,"solar_output":1.35,"wind_output":0.75},
+    {"id":"frost","crop_growth_mult":0.55,"irrigation_need":0.30,"solar_output":0.50,"wind_output":0.90}
+  ],
+  "environment": {
+    "soil_moisture": true,
+    "temperature": true,
+    "water_level": true,
+    "tree_health": true,
+    "wildlife_activity": true
+  }
+}

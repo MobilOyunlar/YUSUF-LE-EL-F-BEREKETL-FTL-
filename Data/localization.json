@@ -1,0 +1,26 @@
+{
+  "farm_title": {
+    "tr": "Yusuf ile Elif: Bereketli Çiftliği",
+    "en": "Yusuf & Elif: Bountiful Farm"
+  },
+  "slogan": {
+    "tr": "Küçük bir arazi, kocaman bir çiftlik!",
+    "en": "A small piece of land, a huge farm!"
+  },
+  "btn_harvest": {
+    "tr": "Hasat Et",
+    "en": "Harvest"
+  },
+  "btn_plant": {
+    "tr": "Ekim Yap",
+    "en": "Plant"
+  },
+  "water_pump": {
+    "tr": "Su Pompası",
+    "en": "Water Pump"
+  },
+  "wind_turbine": {
+    "tr": "Rüzgâr Türbini",
+    "en": "Wind Turbine"
+  }
+}

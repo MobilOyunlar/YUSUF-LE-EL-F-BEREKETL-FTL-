@@ -1,0 +1,11 @@
+{
+  "version": "0.15",
+  "focus": [
+    "animal_meat_production",
+    "fish_processing",
+    "smoking",
+    "advanced_equipment",
+    "cold_chain"
+  ],
+  "status": "development_scaffold"
+}

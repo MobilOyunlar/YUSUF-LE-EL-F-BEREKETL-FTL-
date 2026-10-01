@@ -1,0 +1,18 @@
+{
+  "version":"0.13",
+  "rules":{"care_affects_output":true,"quality_affects_products":true,"breeding_enabled":true,"meat_requires_maturity":true,"slaughter_is_irreversible":true},
+  "animals":{
+    "cow":{"meat_products":["beef","ground_beef","beef_cubes","beef_steak"],"live_products":["milk","manure"],"maturity_days":12},
+    "sheep":{"meat_products":["lamb_meat","ground_lamb","lamb_cubes","lamb_chop"],"live_products":["milk","wool","manure"],"maturity_days":10},
+    "goat":{"meat_products":["goat_meat","ground_goat","goat_cubes"],"live_products":["milk","goat_hair","manure"],"maturity_days":9},
+    "pig":{"meat_products":["pork","ground_pork","pork_cubes","pork_chop"],"live_products":["manure"],"maturity_days":10},
+    "chicken":{"meat_products":["chicken_meat","chicken_breast","chicken_thigh","chicken_wing"],"live_products":["egg","feather","manure"],"maturity_days":6},
+    "turkey":{"meat_products":["turkey_meat","turkey_breast","ground_turkey"],"live_products":["turkey_egg","feather","manure"],"maturity_days":8},
+    "duck":{"meat_products":["duck_meat","duck_breast"],"live_products":["duck_egg","feather","manure"],"maturity_days":7},
+    "goose":{"meat_products":["goose_meat","goose_breast"],"live_products":["goose_egg","feather","manure"],"maturity_days":8},
+    "rabbit":{"meat_products":["rabbit_meat","ground_rabbit"],"live_products":["fur","manure"],"maturity_days":5},
+    "ostrich":{"meat_products":["ostrich_meat","ostrich_steak"],"live_products":["ostrich_egg","ostrich_feather","manure"],"maturity_days":14}
+  },
+  "quality_tiers":["normal","good","very_good","premium","legendary"],
+  "quality_factors":["happiness","feed_quality","health","breed_rarity","age_at_harvest","housing_level"]
+}

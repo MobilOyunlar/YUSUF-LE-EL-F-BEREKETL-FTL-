@@ -1,0 +1,35 @@
+{
+  "version": "0.42",
+  "friends": {
+    "add_by_player_id": true,
+    "visit_farm": true,
+    "help_actions": [
+      "water",
+      "fertilize",
+      "feed_pet"
+    ],
+    "gifts": true
+  },
+  "profiles": {
+    "display_name": true,
+    "avatar": true,
+    "farm_preview": true
+  },
+  "notifications": {
+    "friend_help": true,
+    "gift_received": true,
+    "farm_event": true
+  },
+  "online_presence": {
+    "enabled": true,
+    "privacy_options": [
+      "online",
+      "friends_only",
+      "offline"
+    ]
+  },
+  "chat": {
+    "planned": true,
+    "moderation_required": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "0.16",
+  "systems": [
+    "milk_processing",
+    "bakery_and_dessert",
+    "beverage_processing",
+    "fish_and_meat_processing",
+    "cold_chain",
+    "super_machine_variants"
+  ],
+  "chains": [
+    {"input":"milk","outputs":["cream","butter","yogurt","cheese"]},
+    {"input":"wheat_flour","outputs":["dough","bread","bun","pide_dough","pizza_dough","lahmacun_dough","cake"]},
+    {"input":"fruit","outputs":["juice","jam","dried_fruit","canned_fruit","smoothie"]},
+    {"input":"fish","outputs":["cleaned_fish","fillet","smoked_fish","canned_fish","cooked_fish"]},
+    {"input":"meat","outputs":["minced_meat","cubes","steak","sausage","salami","smoked_meat","meatball","burger_patty"]}
+  ],
+  "quality_tiers":["normal","good","very_good","premium","legendary"],
+  "super_machine_rule":"same recipe family, higher speed/capacity, distinct premium visuals"
+}

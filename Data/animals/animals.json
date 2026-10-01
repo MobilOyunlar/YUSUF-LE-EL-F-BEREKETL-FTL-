@@ -1,0 +1,112 @@
+{
+  "cattle": {
+    "name": "İnek",
+    "meat_products": [
+      "beef_carcass",
+      "beef_mince",
+      "beef_cubed",
+      "beef_steak"
+    ],
+    "live_products": [
+      "milk",
+      "manure"
+    ]
+  },
+  "sheep": {
+    "name": "Koyun",
+    "meat_products": [
+      "lamb_carcass",
+      "lamb_mince",
+      "lamb_cubed"
+    ],
+    "live_products": [
+      "sheep_milk",
+      "wool",
+      "manure"
+    ]
+  },
+  "goat": {
+    "name": "Keçi",
+    "meat_products": [
+      "goat_meat",
+      "goat_mince",
+      "goat_cubed"
+    ],
+    "live_products": [
+      "goat_milk",
+      "goat_hair",
+      "manure"
+    ]
+  },
+  "chicken": {
+    "name": "Tavuk",
+    "meat_products": [
+      "chicken_whole",
+      "chicken_breast",
+      "chicken_thigh",
+      "chicken_wing"
+    ],
+    "live_products": [
+      "egg",
+      "feather",
+      "manure"
+    ]
+  },
+  "turkey": {
+    "name": "Hindi",
+    "meat_products": [
+      "turkey_meat",
+      "turkey_breast",
+      "turkey_mince"
+    ],
+    "live_products": [
+      "turkey_egg",
+      "feather",
+      "manure"
+    ]
+  },
+  "duck": {
+    "name": "Ördek",
+    "meat_products": [
+      "duck_meat",
+      "duck_breast"
+    ],
+    "live_products": [
+      "duck_egg",
+      "feather",
+      "manure"
+    ]
+  },
+  "goose": {
+    "name": "Kaz",
+    "meat_products": [
+      "goose_meat",
+      "goose_breast"
+    ],
+    "live_products": [
+      "goose_egg",
+      "feather",
+      "manure"
+    ]
+  },
+  "rabbit": {
+    "name": "Tavşan",
+    "meat_products": [
+      "rabbit_meat"
+    ],
+    "live_products": [
+      "manure"
+    ]
+  },
+  "ostrich": {
+    "name": "Deve Kuşu",
+    "meat_products": [
+      "ostrich_meat"
+    ],
+    "live_products": [
+      "ostrich_egg",
+      "ostrich_feather",
+      "manure"
+    ]
+  }
+}

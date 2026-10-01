@@ -1,0 +1,13 @@
+{
+  "version":"0.14",
+  "breeding":{
+    "enabled":true,
+    "requirements":["adult_pair","housing_capacity","feed","health"],
+    "inheritance":["breed","quality_potential","color_variant"],
+    "mutation_chance_for_rare_variant":0.01,
+    "golden_variant_requires_event_or_rare_breeding":true,
+    "offspring_rules":"data_driven"
+  },
+  "animal_lifecycle":["baby","young","adult","senior"],
+  "production_rule":"adult_animals_can_produce_live_products; eligible_animals_can_enter_meat_chain"
+}

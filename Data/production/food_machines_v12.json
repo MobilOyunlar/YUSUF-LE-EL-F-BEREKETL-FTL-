@@ -1,0 +1,13 @@
+{
+  "version": "0.12",
+  "machines": [
+    {"id":"hamburger_machine","name_tr":"Hamburger Makinesi","movable":true},
+    {"id":"pide_machine","name_tr":"Pide Fırını","movable":true},
+    {"id":"lahmacun_machine","name_tr":"Lahmacun Fırını","movable":true},
+    {"id":"pizza_machine","name_tr":"Pizza Fırını","movable":true},
+    {"id":"fruit_juice_machine","name_tr":"Meyve Suyu Makinesi","movable":true},
+    {"id":"jam_machine","name_tr":"Reçel Makinesi","movable":true},
+    {"id":"drying_machine","name_tr":"Kurutma Makinesi","movable":true}
+  ],
+  "recipe_capacity_target": 200
+}

@@ -1,0 +1,25 @@
+{
+  "version":"0.14",
+  "currency":"coins",
+  "product_price_bands":{
+    "beef":{"min":90,"base":135,"max":200},
+    "ground_beef":{"min":110,"base":165,"max":245},
+    "beef_steak":{"min":180,"base":270,"max":400},
+    "lamb_meat":{"min":100,"base":150,"max":220},
+    "goat_meat":{"min":90,"base":140,"max":210},
+    "chicken_meat":{"min":60,"base":90,"max":135},
+    "turkey_meat":{"min":80,"base":120,"max":180},
+    "smoked_beef":{"min":220,"base":330,"max":500},
+    "smoked_chicken":{"min":150,"base":225,"max":340},
+    "smoked_trout":{"min":180,"base":270,"max":400},
+    "smoked_salmon":{"min":300,"base":450,"max":675},
+    "smoked_anchovy":{"min":110,"base":165,"max":250},
+    "canned_fish":{"min":130,"base":195,"max":290},
+    "hamburger":{"min":180,"base":270,"max":400},
+    "beef_sausage":{"min":200,"base":300,"max":450},
+    "beef_salami":{"min":240,"base":360,"max":540},
+    "meatball":{"min":160,"base":240,"max":360},
+    "smoked_seafood":{"min":250,"base":375,"max":560}
+  },
+  "dynamic_market":{"min_multiplier":0.7,"base_multiplier":1.0,"max_multiplier":1.5,"quality_after_demand":true}
+}

@@ -1,0 +1,8 @@
+{
+  "periods": ["weekly", "monthly", "yearly"],
+  "categories": ["farm_value", "harvest", "production", "orders", "animal_care", "xp"],
+  "privacy": {"public_opt_in": true, "show_real_account_data": false},
+  "rewards": ["coins", "diamonds", "xp", "badges", "cosmetics", "farm_decorations"],
+  "server_authoritative": true,
+  "anti_cheat": {"validate_events": true, "rate_limit_score_events": true, "reject_invalid_deltas": true}
+}

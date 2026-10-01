@@ -1,0 +1,102 @@
+{
+  "cow": {
+    "category": "livestock",
+    "products": [
+      "milk"
+    ],
+    "pet": false
+  },
+  "sheep": {
+    "category": "livestock",
+    "products": [
+      "wool"
+    ],
+    "pet": false
+  },
+  "goat": {
+    "category": "livestock",
+    "products": [
+      "milk"
+    ],
+    "pet": false
+  },
+  "horse": {
+    "category": "livestock",
+    "products": [],
+    "pet": false
+  },
+  "llama": {
+    "category": "livestock",
+    "products": [
+      "wool"
+    ],
+    "pet": false
+  },
+  "rabbit": {
+    "category": "livestock",
+    "products": [
+      "fur"
+    ],
+    "pet": false
+  },
+  "chicken": {
+    "category": "poultry",
+    "products": [
+      "egg"
+    ],
+    "pet": false
+  },
+  "duck": {
+    "category": "poultry",
+    "products": [
+      "duck_egg"
+    ],
+    "pet": false
+  },
+  "goose": {
+    "category": "poultry",
+    "products": [
+      "goose_egg",
+      "feather"
+    ],
+    "pet": false
+  },
+  "pig": {
+    "category": "livestock",
+    "products": [
+      "pork"
+    ],
+    "pet": false
+  },
+  "turkey": {
+    "category": "poultry",
+    "products": [
+      "turkey_meat",
+      "feather"
+    ],
+    "pet": false
+  },
+  "rooster": {
+    "category": "poultry",
+    "products": [],
+    "pet": false
+  },
+  "bee": {
+    "category": "insect",
+    "products": [
+      "honey",
+      "wax"
+    ],
+    "pet": false
+  },
+  "cat": {
+    "category": "pet",
+    "products": [],
+    "pet": true
+  },
+  "dog": {
+    "category": "pet",
+    "products": [],
+    "pet": true
+  }
+}

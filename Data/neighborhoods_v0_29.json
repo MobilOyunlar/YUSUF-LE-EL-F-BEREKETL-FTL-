@@ -1,0 +1,11 @@
+{
+  "version": "0.29",
+  "name": "Neighborhoods & Co-op",
+  "max_members": 30,
+  "roles": ["leader", "co_leader", "member"],
+  "features": ["chat", "shared_tasks", "donations", "cooperative_events", "co_op_leaderboard", "visit_permissions"],
+  "daily_donation_limit": 20,
+  "weekly_shared_goal": {"metric": "orders_completed", "target": 500, "reward": {"coins": 25000, "xp": 500}},
+  "moderation": {"leader_can_mute": true, "report_to_server": true, "rate_limit_seconds": 3},
+  "privacy": {"join_policy": ["open", "approval", "invite_only"]}
+}

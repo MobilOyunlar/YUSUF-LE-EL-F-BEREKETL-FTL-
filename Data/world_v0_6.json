@@ -1,0 +1,33 @@
+{
+  "water_source": "creek",
+  "water_pump": {
+    "fixed": true,
+    "source": "creek"
+  },
+  "irrigation": {
+    "enabled": true,
+    "requires": [
+      "water_pump"
+    ]
+  },
+  "wind_turbine": {
+    "movable": true,
+    "provides": "electricity"
+  },
+  "energy_flow": [
+    "wind_turbine",
+    "electricity",
+    "water_pump",
+    "irrigation"
+  ],
+  "land_expansion": {
+    "chunk_based": true,
+    "preserve_existing_layout": true,
+    "example_sizes": [
+      "12x12",
+      "14x14",
+      "16x16",
+      "18x18"
+    ]
+  }
+}

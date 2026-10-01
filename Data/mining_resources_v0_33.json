@@ -1,0 +1,33 @@
+{
+  "version": "0.33",
+  "zones": ["farm_quarry", "forest_edge", "mountain_mine", "deep_mine"],
+  "resources": [
+    {"id":"stone","tier":1,"uses":["building","road","fence"]},
+    {"id":"clay","tier":1,"uses":["brick","pottery","kiln"]},
+    {"id":"sand","tier":1,"uses":["glass","concrete"]},
+    {"id":"limestone","tier":2,"uses":["lime","cement"]},
+    {"id":"coal","tier":2,"uses":["fuel","smelting"]},
+    {"id":"iron_ore","tier":2,"uses":["iron_ingot","tools","machines"]},
+    {"id":"copper_ore","tier":2,"uses":["copper_ingot","wire","electronics"]},
+    {"id":"silver_ore","tier":3,"uses":["silver_ingot","premium_decor"]},
+    {"id":"gold_ore","tier":4,"uses":["gold_ingot","premium_decor","special_orders"]},
+    {"id":"quartz","tier":3,"uses":["glass","electronics"]},
+    {"id":"gem_ore","tier":4,"uses":["rare_crafting","special_orders"]}
+  ],
+  "processing": [
+    {"input":"iron_ore","machine":"smelter","output":"iron_ingot","time_sec":90},
+    {"input":"copper_ore","machine":"smelter","output":"copper_ingot","time_sec":75},
+    {"input":"gold_ore","machine":"advanced_smelter","output":"gold_ingot","time_sec":180},
+    {"input":"silver_ore","machine":"advanced_smelter","output":"silver_ingot","time_sec":150},
+    {"input":"clay","machine":"kiln","output":"brick","time_sec":60},
+    {"input":"sand","machine":"glass_kiln","output":"glass","time_sec":90}
+  ],
+  "machines": [
+    {"id":"quarry","levels":5,"energy_per_cycle":6},
+    {"id":"smelter","levels":5,"energy_per_cycle":12},
+    {"id":"advanced_smelter","levels":5,"energy_per_cycle":18},
+    {"id":"kiln","levels":5,"energy_per_cycle":8},
+    {"id":"glass_kiln","levels":5,"energy_per_cycle":10}
+  ],
+  "safety": {"resource_rolls_server_authoritative": true, "rare_resource_daily_cap": true}
+}

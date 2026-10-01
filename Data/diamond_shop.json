@@ -1,0 +1,62 @@
+{
+  "currency": "diamond",
+  "display_name_tr": "Elmas",
+  "display_name_en": "Diamonds",
+  "packages": [
+    {
+      "diamonds": 500,
+      "price_try": 250,
+      "label_tr": "Başlangıç Paketi",
+      "label_en": "Starter Pack"
+    },
+    {
+      "diamonds": 1500,
+      "price_try": 750,
+      "label_tr": "Küçük Paket",
+      "label_en": "Small Pack"
+    },
+    {
+      "diamonds": 2500,
+      "price_try": 2000,
+      "label_tr": "Orta Paket",
+      "label_en": "Medium Pack"
+    },
+    {
+      "diamonds": 4000,
+      "price_try": 3300,
+      "label_tr": "Büyük Paket",
+      "label_en": "Large Pack"
+    },
+    {
+      "diamonds": 8000,
+      "price_try": 6000,
+      "label_tr": "Mega Paket",
+      "label_en": "Mega Pack"
+    },
+    {
+      "diamonds": 16000,
+      "price_try": 11000,
+      "label_tr": "Ultra Paket",
+      "label_en": "Ultra Pack"
+    },
+    {
+      "diamonds": 20000,
+      "price_try": 17000,
+      "label_tr": "Dev Paket",
+      "label_en": "Giant Pack"
+    },
+    {
+      "diamonds": 30000,
+      "price_try": 22000,
+      "label_tr": "Kraliyet Paketi",
+      "label_en": "Royal Pack"
+    },
+    {
+      "diamonds": 50000,
+      "price_try": 35000,
+      "label_tr": "İmparatorluk Paketi",
+      "label_en": "Empire Pack",
+      "note": "Proposed price; final store price can be adjusted before launch."
+    }
+  ]
+}

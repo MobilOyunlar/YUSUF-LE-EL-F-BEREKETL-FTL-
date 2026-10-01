@@ -1,0 +1,10 @@
+{
+  "tiers": [
+    {"id":"normal","multiplier":1.0},
+    {"id":"good","multiplier":1.12},
+    {"id":"very_good","multiplier":1.28},
+    {"id":"premium","multiplier":1.5},
+    {"id":"legendary","multiplier":1.9}
+  ],
+  "factors": ["animal_happiness", "feed_quality", "breed_potential", "soil_quality", "fertilizer", "irrigation", "machine_level", "processing_method"]
+}

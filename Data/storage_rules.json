@@ -1,0 +1,8 @@
+{
+  "system": "farm_storage",
+  "fixed": true,
+  "counts_by_capacity": true,
+  "upgrade_requires": ["coins", "wood", "stone", "iron"],
+  "diamond_instant_upgrade": true,
+  "overflow_policy": "block_new_item_and_show_storage_full"
+}

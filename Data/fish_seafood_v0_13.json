@@ -1,0 +1,9 @@
+{
+  "version":"0.13",
+  "freshwater":["carp","trout","pike","eel","sturgeon"],
+  "sea_fish":["anchovy","sardine","horse_mackerel","mackerel","bonito","bluefish","whiting","mullet","sea_bass","sea_bream","salmon","tuna","swordfish"],
+  "seafood":["shrimp","crab","lobster","mussel","octopus","squid","scallop","seaweed"],
+  "processing_states":["raw","cleaned","fillet_or_meat","salted","brined","dried","smoked","canned","cooked"],
+  "rare_fish":["golden_trout","crystal_carp","ancient_sturgeon"],
+  "quality_tiers":["normal","good","very_good","premium","legendary"]
+}

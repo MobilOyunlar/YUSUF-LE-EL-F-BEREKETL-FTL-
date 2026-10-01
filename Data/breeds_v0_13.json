@@ -1,0 +1,15 @@
+{
+  "version":"0.13",
+  "breeds":{
+    "chicken":["standard","blue_egg","orange_egg","red_egg","golden"],
+    "duck":["standard","blue","white","brown","golden"],
+    "goose":["standard","white","gray","golden"],
+    "cow":["standard","high_milk","beef","golden"],
+    "sheep":["standard","wool","meat","golden"],
+    "goat":["standard","milk","meat","golden"],
+    "rabbit":["standard","meat","fur","golden"],
+    "turkey":["standard","meat","golden"],
+    "ostrich":["standard","premium","golden"]
+  },
+  "special_product_rules":{"blue_egg":"blue_egg","orange_egg":"orange_egg","red_egg":"red_egg","golden":"golden_product"}
+}

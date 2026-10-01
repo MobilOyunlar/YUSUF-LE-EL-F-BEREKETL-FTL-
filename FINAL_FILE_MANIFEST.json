@@ -1,0 +1,865 @@
+{
+  "version": "1.0",
+  "project": "Yusuf ile Elif: Bereketli Çiftliği",
+  "studio": {
+    "line1": "LUMORIX",
+    "line2": "Gamer Studio"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 248,
+      "sha256": "0d2d69ae6913145d50fdcb44607accd13f804371a941e77494777186fd8cb48e"
+    },
+    {
+      "path": "Assets/Animals/Cat.glb",
+      "size": 12688,
+      "sha256": "eebc294f78b6402c27c889786bf310a68e3158804cbb93ebb9524ab7019007e6"
+    },
+    {
+      "path": "Assets/Animals/Chicken.glb",
+      "size": 12692,
+      "sha256": "597a81c0a6b0843c8c60092a8e62608280adc0a13cf223c067f4cbd956ba3b77"
+    },
+    {
+      "path": "Assets/Animals/Cow.glb",
+      "size": 14040,
+      "sha256": "b4c851d65cb6d29d9b01a0a562c4e5b1528c81d8c4dd183190819f43974fbde1"
+    },
+    {
+      "path": "Assets/Animals/Dog.glb",
+      "size": 12704,
+      "sha256": "222675e1651f11dbcc51934f735856beee93b35f02799c4abbc0a563f1cd1015"
+    },
+    {
+      "path": "Assets/Animals/Goat.glb",
+      "size": 14128,
+      "sha256": "41d677c01c0d0c9b868b3133ff1d035988ace22bb6fc5c9f47b7dd8bcf04bedf"
+    },
+    {
+      "path": "Assets/Animals/Horse.glb",
+      "size": 14040,
+      "sha256": "25bed6757ad69b2899377486033872b1679bdc73722dc0351be30f2860f1453e"
+    },
+    {
+      "path": "Assets/Animals/Llama.glb",
+      "size": 14128,
+      "sha256": "74c8efb99a7ff85f91027ec3a5a001a9eb366680888462867e5cee4d78175609"
+    },
+    {
+      "path": "Assets/Animals/Rabbit.glb",
+      "size": 12588,
+      "sha256": "031415a2dab594638e4fd8e6318099982d6a7f04faa54b208822ae4eebb129a5"
+    },
+    {
+      "path": "Assets/Animals/Sheep.glb",
+      "size": 12520,
+      "sha256": "0127dbaa832af57de7288b056eb84f68af0707d18f7d031ab7c07e74229fd95b"
+    },
+    {
+      "path": "Assets/Buildings/barn.glb",
+      "size": 2880,
+      "sha256": "2655d159e84a8b449a74d7f8fc11fe5e2c8fcd530267f83f2f2f521aff4997e9"
+    },
+    {
+      "path": "Assets/Buildings/cheese_machine.glb",
+      "size": 3268,
+      "sha256": "a22461bc4ffe24adc3ab58922abaeeadcddd876dd75892323c4c767676fca237"
+    },
+    {
+      "path": "Assets/Buildings/hive.glb",
+      "size": 3132,
+      "sha256": "96c0dea10e427426559b89d1156892eba06f9ecf335b57ed830a0a3cbd482055"
+    },
+    {
+      "path": "Assets/Buildings/house.glb",
+      "size": 2832,
+      "sha256": "40dd10185fa219d30a5cad1611a747e57d0caddb3cd0b3043201e4c42df97967"
+    },
+    {
+      "path": "Assets/Buildings/mill.glb",
+      "size": 6236,
+      "sha256": "8762626fabc518ebfd18f87cd30464bd8a929c80562fc6410035a626b0fdd18c"
+    },
+    {
+      "path": "Assets/Buildings/oven.glb",
+      "size": 3484,
+      "sha256": "16147d140009f2869555efa2577b3238501fecd111605b8a2a2e41adec237b87"
+    },
+    {
+      "path": "Assets/Characters/Elif.glb",
+      "size": 18496,
+      "sha256": "9dda40f9c561eababd62f6dafa4c9da6f9bf8ea4bd86ebabf8426d1c33a1d9b9"
+    },
+    {
+      "path": "Assets/Characters/Yusuf.glb",
+      "size": 18500,
+      "sha256": "5b8fd6a498ca7971b09b4190e7a0fd1d0dffccc6ecf52c6210dda3e05b0eeafd"
+    },
+    {
+      "path": "Assets/Environment/crop_wheat.glb",
+      "size": 8808,
+      "sha256": "ad0c3e106271360e0933f99615aad554c1c5d8199a056553e5d41606f0d9627e"
+    },
+    {
+      "path": "Assets/Environment/fence.glb",
+      "size": 3444,
+      "sha256": "55ff5e93b7f7d82e6a5e1f3c3cbebe948b53b73ab058c4ce25e28fec63ebefaf"
+    },
+    {
+      "path": "Assets/Environment/river.glb",
+      "size": 1212,
+      "sha256": "98cff711c84e8b8aee641c535a1b3261b3fe4ab95b45c677b3a0ff835e441e68"
+    },
+    {
+      "path": "Assets/Environment/rock.glb",
+      "size": 3656,
+      "sha256": "0f73f3fbf4f6966dbc5c6f7c6697fb636cbcee9babdc5b032a46a7a1222290c5"
+    },
+    {
+      "path": "Assets/Environment/tree.glb",
+      "size": 8136,
+      "sha256": "dcda95caead0fdce2a82baf347e6fbefc5c1178e05a90d58dbe7d4cd209a4018"
+    },
+    {
+      "path": "Assets/Infrastructure/water_pump.glb",
+      "size": 3604,
+      "sha256": "f71d238fdaa5856b2947e2bdaabf174d46473394872e2a1efc4890abdf779d27"
+    },
+    {
+      "path": "Assets/Infrastructure/wind_turbine.glb",
+      "size": 10372,
+      "sha256": "b048860217a30a34399d06353bac541cbc9517f12099dbc294739f6c795591bf"
+    },
+    {
+      "path": "Data/FINAL_PROJECT_MANIFEST.json",
+      "size": 486,
+      "sha256": "6e96d463350d9160832646ba45de27e373c0795c78afb496ff06720585cecb57"
+    },
+    {
+      "path": "Data/Social/leaderboard_rewards.json",
+      "size": 509,
+      "sha256": "08fcd7e2992a2b3c93056009da8975671a859f19919b7f7df8b126af23dbc833"
+    },
+    {
+      "path": "Data/Social/player_profile.json",
+      "size": 284,
+      "sha256": "93d8703183ab64618b90e9e17e034f8072e190e90b67ed97a374a0e2c98ea637"
+    },
+    {
+      "path": "Data/account_cloud_v0_42.json",
+      "size": 749,
+      "sha256": "d4f17f139e38b463040f3a3f7cac6128e1f9f5ef2e01b48dba72d5fb3ac643fa"
+    },
+    {
+      "path": "Data/advanced_machines_v17.json",
+      "size": 912,
+      "sha256": "5b8438d0fb099d00e6da88250601853ac41072078518eae4eab5510eb2946987"
+    },
+    {
+      "path": "Data/advanced_products_v17.json",
+      "size": 1201,
+      "sha256": "2c585d5ab0f58cec30543d69adc8f2cc82caf231d9e56ddb204db66ae5645a04"
+    },
+    {
+      "path": "Data/animal_breeding_v18.json",
+      "size": 718,
+      "sha256": "8024fa19b45af683b0964fa2b78b1982c40e7aa16b303bf1a30fec0c9f62bbdf"
+    },
+    {
+      "path": "Data/animal_breeding_v19.json",
+      "size": 969,
+      "sha256": "107a3cbe02b919aa04207abbb53783f2c6e97cffe307d2a61fb3cdf5d47a6d3c"
+    },
+    {
+      "path": "Data/animal_meat_chains.json",
+      "size": 2074,
+      "sha256": "69c82ef3e926625ace169e9ce411c12be1f948d34a6b3e41947f31ac71342755"
+    },
+    {
+      "path": "Data/animal_production_v0_13.json",
+      "size": 1729,
+      "sha256": "20f9a7744d4cbc61e79ee90649c99ab4521ac8be384eed1f053ed2b01460bb08"
+    },
+    {
+      "path": "Data/animals/animals.json",
+      "size": 1777,
+      "sha256": "04b15822c13ace926f19ccb87cf3beedf25be1675f3018f75a42d99be3fde0e9"
+    },
+    {
+      "path": "Data/animals/fish_variants.json",
+      "size": 2836,
+      "sha256": "0913b1e042b28490b12fdcd298518a39eba2a430be6f915e727a67beef9b253e"
+    },
+    {
+      "path": "Data/animals/meat_fish_recipes.json",
+      "size": 1636,
+      "sha256": "35dd581266c5115119011baf58c8a6be043d04fa03b011e857ac2cc0489c0a69"
+    },
+    {
+      "path": "Data/animals/products_meat_fish.json",
+      "size": 2843,
+      "sha256": "1e1fa19b26295af0f42513b33a4d485b2aa6ba3fb3e5ed2d1fcf42e11761c4f5"
+    },
+    {
+      "path": "Data/animals_v0_5.json",
+      "size": 1489,
+      "sha256": "4cf5172be3e5e1f75a5a155f71fec302001de0f0a750bf2dc937121295b325b0"
+    },
+    {
+      "path": "Data/asset_manifest.json",
+      "size": 1163,
+      "sha256": "d00e68c42e707820493ce5f9065660719aec236faee135f0492a4921a54ad4ea"
+    },
+    {
+      "path": "Data/automation_v0_13.json",
+      "size": 686,
+      "sha256": "70d6cd01b307357fb2b5ed2973f55854b27d2ac3c60444b1e275393f16a93dfe"
+    },
+    {
+      "path": "Data/automation_v0_41.json",
+      "size": 1495,
+      "sha256": "13c206eb6654e55d1ab210b979e0ac9c5984b9772aafdc3047162c86f5ea2466"
+    },
+    {
+      "path": "Data/breeding_v0_14.json",
+      "size": 496,
+      "sha256": "6ae9675d95131c40f5275520323e5be86beaf75dcb966cd463285ec539b62354"
+    },
+    {
+      "path": "Data/breeds_v0_13.json",
+      "size": 629,
+      "sha256": "1387d42eef1f3ea0e3d6b86f079b58c34000464f0d2a66ecf536db95ef07edb6"
+    },
+    {
+      "path": "Data/character_home_customization_v0_39.json",
+      "size": 646,
+      "sha256": "674c3ae382c720e0cc635f98eba77b95680b0b30942043fe073d8f1cf5b9b109"
+    },
+    {
+      "path": "Data/co_op_tasks_v0_29.json",
+      "size": 415,
+      "sha256": "8f95cee9f026a5a828bd5fe2e4abb73f23a0a5fa479a6c39fc533a9d454646aa"
+    },
+    {
+      "path": "Data/cold_chain_v0_14.json",
+      "size": 593,
+      "sha256": "d44c4d1bdabf88a317e71cb86e0870bc3245e310d6ce0741e16352283ea026eb"
+    },
+    {
+      "path": "Data/cold_chain_v18.json",
+      "size": 553,
+      "sha256": "23d3e13af06e5356f3ae96591d68613fbbd5da347a6271a54183adc62323ce20"
+    },
+    {
+      "path": "Data/cold_chain_v19.json",
+      "size": 335,
+      "sha256": "463e3c0c826827696a64a43da9e26d9e6d330ad01eb0c10ed4edafede27f7a7f"
+    },
+    {
+      "path": "Data/crop_decay_v0_39.json",
+      "size": 715,
+      "sha256": "fe46d34aeb00430fd514abf37a2039d1ae6bdf9d8bec38a11b0481ce8edaeb0f"
+    },
+    {
+      "path": "Data/crop_decay_v0_40.json",
+      "size": 398,
+      "sha256": "08130e5d2958fc2e7088183544b3693363576be123667898a81e4660192026a5"
+    },
+    {
+      "path": "Data/crops.json",
+      "size": 302,
+      "sha256": "c3c243eecc918a724d6d1ff613f62e1a40048ddf57682269175aecd63dc64362"
+    },
+    {
+      "path": "Data/diamond_shop.json",
+      "size": 1356,
+      "sha256": "c7778554a9edc1db1d67a6fb0fbd9c4a7a582be6bbdbf3e45d78975a39b0cf43"
+    },
+    {
+      "path": "Data/economy_catalog_v0_14.json",
+      "size": 1117,
+      "sha256": "3372a74778a25db48ce6a757aacb8e733356dd8597b66c8a833e394cc9c7ca9c"
+    },
+    {
+      "path": "Data/equipment_upgrades_v0_14.json",
+      "size": 1183,
+      "sha256": "60a6adf2b0223074dc2ece62d0bc926b0892c7d1191ceac53f824b913943e09c"
+    },
+    {
+      "path": "Data/events_v27.json",
+      "size": 571,
+      "sha256": "e6a5b36f100ed0274844a33a444fae66d48f21a409a14f3dfd7f3a586e099e14"
+    },
+    {
+      "path": "Data/exploration_expeditions_v0_37.json",
+      "size": 786,
+      "sha256": "cad40f8432e06e399441c22c58de454a56a8bc0c7f5651ff0c97cd00ba86af7c"
+    },
+    {
+      "path": "Data/exploration_regions_v0_37.json",
+      "size": 1569,
+      "sha256": "699a104935c663927eb7f9c787892c696dbb4644e327981539f4b4344f4546c0"
+    },
+    {
+      "path": "Data/factories_v0_41.json",
+      "size": 1742,
+      "sha256": "3a7a7a7d504b59201c822f6d53722143702ae2d293bbf4477f88cd4a42286901"
+    },
+    {
+      "path": "Data/farm_edit_mode_v0_40.json",
+      "size": 486,
+      "sha256": "6aa5f5a7b5042cc4c50eebb116f8cb582b680c5010919111905c4eea86b01ed7"
+    },
+    {
+      "path": "Data/final_integration_checklist_v0_8.json",
+      "size": 546,
+      "sha256": "32f54f8548f1bfd832a8b84cf1c878adb57fdd4a737247aaaf7d73eef1904f67"
+    },
+    {
+      "path": "Data/fish_seafood_v0_13.json",
+      "size": 570,
+      "sha256": "2b181335b9e105e75e65ea4dccf3bf99349191fba429ddc60ab889a74d6cc06d"
+    },
+    {
+      "path": "Data/forestry_resources_v0_34.json",
+      "size": 3500,
+      "sha256": "54b354c9ef531f89b528357d15926301f4a9eef1508f03f2e098dc50c345bb61"
+    },
+    {
+      "path": "Data/fruit_trees_v0_9.json",
+      "size": 5671,
+      "sha256": "fea3a2e057fc3a363c01b561de3e3cb776f582a10074285670f3d1d13fb901eb"
+    },
+    {
+      "path": "Data/google_play_billing_v0_43.json",
+      "size": 1287,
+      "sha256": "d05d345254eaa42b16b91858d5b6c5d44815f8ef01957c00fc5806b255413c89"
+    },
+    {
+      "path": "Data/home_decoration_v0_40.json",
+      "size": 617,
+      "sha256": "3ea546a8f4e61da63d1b32b80deb7b333edd855006ae9a875608d02072f668ae"
+    },
+    {
+      "path": "Data/leaderboard_config.json",
+      "size": 432,
+      "sha256": "5b5e11bc086edee0e3ee36a788ff3a0ce5557e0a320543e7fb43616c1818fd41"
+    },
+    {
+      "path": "Data/leaderboard_v27.json",
+      "size": 269,
+      "sha256": "493f1ee635d20dd76c20722624987628f93e59b131326a4a5db18a5655b9248c"
+    },
+    {
+      "path": "Data/leaderboards.json",
+      "size": 1005,
+      "sha256": "8441a0d8450f1f85cd2e6c8f7d1f98ef16a012f698c46aed4fb64a4e683c3597"
+    },
+    {
+      "path": "Data/level_unlocks_v1_0.json",
+      "size": 1777,
+      "sha256": "644a3f67bee99a427e99a1b2d35fb7b2761bbcd65064ef164383330e5ec4cc52"
+    },
+    {
+      "path": "Data/live_events_v0_28.json",
+      "size": 418,
+      "sha256": "59ec5c40aac16c7107edd6bbbd3ae40693aa0c15eb35a4d5d169908c1ba1d679"
+    },
+    {
+      "path": "Data/localization.json",
+      "size": 518,
+      "sha256": "0f95b066430cea20a2982a4dfb8fd7a7e50ad9be2eba2d59d3ca3c7100ae215c"
+    },
+    {
+      "path": "Data/localization_v0_7.json",
+      "size": 467,
+      "sha256": "4ace2e6262e6af776be3f2123ce2a3ab7ed40b37706e585ed93d973e3533da12"
+    },
+    {
+      "path": "Data/machine_upgrades_v19.json",
+      "size": 306,
+      "sha256": "ba224e1ef37a0798b4cbf841bc6444cba860dd410a856c1e77125c0b3223c3ac"
+    },
+    {
+      "path": "Data/machines_v0_13.json",
+      "size": 1636,
+      "sha256": "875b0c9b7beaf8e25639299e06c6fecc4e5a6722efd68df5313fbd81be722f6c"
+    },
+    {
+      "path": "Data/market/market_levels.json",
+      "size": 348,
+      "sha256": "875c5d54173c91181dd7ba785338e8f52650947ccde909bbcb4edc492f200bba"
+    },
+    {
+      "path": "Data/market_board.json",
+      "size": 287,
+      "sha256": "51ff090296f335ebbea39797bfa8fd6e687020517babf9f4c698e17ace110565"
+    },
+    {
+      "path": "Data/market_v0_9.json",
+      "size": 5609,
+      "sha256": "c0e1b646a1f683aba12b6e67e23640b750dc183880dc58e65a68646410e58aa7"
+    },
+    {
+      "path": "Data/mining_equipment_v0_33.json",
+      "size": 610,
+      "sha256": "7809a5fb73d57bd9baca36da31f497dd6d058652a68441aa99db50e6dd02dd65"
+    },
+    {
+      "path": "Data/mining_resources_v0_33.json",
+      "size": 1777,
+      "sha256": "f495761fbfd9964ffec9a9056314527e5c8103ee70c28ca9785726412ba5a0fe"
+    },
+    {
+      "path": "Data/mobile_performance_v0_44.json",
+      "size": 1104,
+      "sha256": "023b7e2c4b9a3111aba87fba368e54dfa3d2005a6c66d6f15353e978967a83ee"
+    },
+    {
+      "path": "Data/neighborhoods_v0_29.json",
+      "size": 544,
+      "sha256": "480029efc7652ca2594893d2a8b94b3379e6a62717ff7392517e7a36c8be0eba"
+    },
+    {
+      "path": "Data/npc_services_v0_35.json",
+      "size": 524,
+      "sha256": "d308f0bd48a7cfce443baf3563648b80cbd3aae1c4c171632653d3cf239dfee1"
+    },
+    {
+      "path": "Data/orders/daily_orders.json",
+      "size": 471,
+      "sha256": "a0008d7592116fed07203ebb6531d6b50b1fc3c0843a87ac83fa62f0f0f6b80d"
+    },
+    {
+      "path": "Data/orders/order_board.json",
+      "size": 361,
+      "sha256": "a3a41118ca5f7e75264a72cab18777d9b16ae8761716da1b6c5a553234aac816"
+    },
+    {
+      "path": "Data/orders/order_templates.json",
+      "size": 725,
+      "sha256": "8219eda9c2f8bdb60799c9a0da945c6a47368f9e7bea47034ff210a0df9bb17a"
+    },
+    {
+      "path": "Data/placement_catalog.json",
+      "size": 393,
+      "sha256": "d42fdc6af27dd6122acbf31c0288186266be3203c4e8253a037b75a9c513765d"
+    },
+    {
+      "path": "Data/placement_rules.json",
+      "size": 1170,
+      "sha256": "1b968237ba90742bf1906d96eb13a18bb956b2ba56af82871b2f5f16ffe08396"
+    },
+    {
+      "path": "Data/player_trading_v0_30.json",
+      "size": 710,
+      "sha256": "0bc7b5ea464befe070eec2feb681d5ef9bcf9e1de6d6f9d277f36e528bab52b0"
+    },
+    {
+      "path": "Data/processing_chains_v0_13.json",
+      "size": 1252,
+      "sha256": "489f5064eaac4d40571b5bccb08e156ed60212893297888db63c6cf176e5fba1"
+    },
+    {
+      "path": "Data/processing_chains_v19.json",
+      "size": 760,
+      "sha256": "07994c2e0f94976fb51c05be460daddd4713a649d959ca9965790d80c081ea94"
+    },
+    {
+      "path": "Data/processing_expansion_v16.json",
+      "size": 877,
+      "sha256": "70feb6131ad6e3d7aeab8c4a0e0890927f896b6f5868e515f17aa2706cc788ec"
+    },
+    {
+      "path": "Data/processing_v18.json",
+      "size": 621,
+      "sha256": "3a1474526b4fa616a8778e6570d4f461786a0518bc2f162ec87a8736c91ad727"
+    },
+    {
+      "path": "Data/product_quality_v0_13.json",
+      "size": 470,
+      "sha256": "69df747278ac972cf4807181076aeb2ef430f8ebe1a93135862f18bb6884a449"
+    },
+    {
+      "path": "Data/product_quality_v19.json",
+      "size": 369,
+      "sha256": "b85f0e0036ab904a4337aa6622e83d976b2118a4fc5b4cbc2dc01870f0504915"
+    },
+    {
+      "path": "Data/production/advanced_equipment.json",
+      "size": 954,
+      "sha256": "ef83bb66a6422db92c80838f6ba31bd486d47c4b5eb5ef2dfcd62a217fd18082"
+    },
+    {
+      "path": "Data/production/food_machines_v12.json",
+      "size": 595,
+      "sha256": "366cc070b9b3bba0404040090178bfa959c85bfc8f13756917f4c7d7bbc8e90e"
+    },
+    {
+      "path": "Data/production/fruit_processing_v12.json",
+      "size": 477,
+      "sha256": "5ef0e5b5c7c873b2375a4f13bfbdb80c9fdb58ddb682e0d555ccbf1a236e650d"
+    },
+    {
+      "path": "Data/production_recipes.json",
+      "size": 442,
+      "sha256": "04474bba987ca905096edc201a47bcb0a80e9a7ffecdbfa4cbdab713540114b4"
+    },
+    {
+      "path": "Data/project_manifest.json",
+      "size": 1416,
+      "sha256": "7cff5162e835820001f24d09883d0d1665bd5a6478cad58de0e9959e4b757ad8"
+    },
+    {
+      "path": "Data/qa_release_checks_v0_44.json",
+      "size": 649,
+      "sha256": "e7f11c0d97548034465f39ebffc3cd052cd001c59ee87554e0b32641280f0014"
+    },
+    {
+      "path": "Data/quest_templates_v11.json",
+      "size": 516,
+      "sha256": "1ee7d047b24d90954a56b465614827182c077763c9ab212a5f224dab0ee85755"
+    },
+    {
+      "path": "Data/quests_v0_7.json",
+      "size": 509,
+      "sha256": "7b8323f8a1967eba0b9e681dbcdc154a07fbe61bb9c4b37223978fc217e7caef"
+    },
+    {
+      "path": "Data/quests_v0_9.json",
+      "size": 1128,
+      "sha256": "a593eefd66a65c1da5dc0d9b5f74a67a5af2cbb4b1fdcce4c0a7578c5ada1deb"
+    },
+    {
+      "path": "Data/recipes_v0_13_meat_fish.json",
+      "size": 1895,
+      "sha256": "cae93208c2c0e2cdbb6c6251600cb0f716d308f9944e5eb58b5238ae71560645"
+    },
+    {
+      "path": "Data/release_candidate_v0_45.json",
+      "size": 1319,
+      "sha256": "e4f9373c91f6c4584deafdce4ae11d620ebb54702c0a105ec33a4e559c7feb52"
+    },
+    {
+      "path": "Data/release_checklist_v0_45.json",
+      "size": 1045,
+      "sha256": "e009c490f55c3353d2f79fc81a61b6267b2a27f1cc2bb6b64ee4f1cd4bd9df3e"
+    },
+    {
+      "path": "Data/shop_catalog.json",
+      "size": 3058,
+      "sha256": "7e2e9afc273fbb6d11241ee019e107d21b50b7dafd80d36f552c3ad7fd2af07b"
+    },
+    {
+      "path": "Data/shop_iap_v0_43.json",
+      "size": 392,
+      "sha256": "b28d3d6c4e6117b8741f67b8818a1ca2ab182d6fdcb7483e145fcdd6904a1916"
+    },
+    {
+      "path": "Data/social_online_v0_42.json",
+      "size": 592,
+      "sha256": "7d7b1869609d8e8a08a05a32ef7787062c837cd826732238beeba34a8aefca84"
+    },
+    {
+      "path": "Data/storage/storage_levels.json",
+      "size": 933,
+      "sha256": "26e49dea1de1ecf97442e0d2977ea417eaa1b5d843f782dc14375b8655d228a9"
+    },
+    {
+      "path": "Data/storage_rules.json",
+      "size": 232,
+      "sha256": "571b8ffde79f31025dffcdb10221a7c955372c6bcb4c93dba066a5dc8def884b"
+    },
+    {
+      "path": "Data/story_progression_v1_0.json",
+      "size": 2443,
+      "sha256": "6603be028de9b6b71d5dbdfba11b35049fd42605dfae79269ee99e5cc99e1e3b"
+    },
+    {
+      "path": "Data/town_buildings_v0_35.json",
+      "size": 1047,
+      "sha256": "9d868fdf136ebc9c45685b890043c520367cdb400b169676a2859da1e9790f32"
+    },
+    {
+      "path": "Data/town_progression_v0_35.json",
+      "size": 1040,
+      "sha256": "0b57b5392b9cc13369ab34380d6d75f07cf850931edde67c725fb9a0125cda9f"
+    },
+    {
+      "path": "Data/trade_delivery_v0_30.json",
+      "size": 314,
+      "sha256": "dfae4aebd799bf18bab0f86832d5462688eb8d883f6be50274e8fc5993263351"
+    },
+    {
+      "path": "Data/transport_upgrades_v0_36.json",
+      "size": 545,
+      "sha256": "c6f2b7ba77d0093a2d37555041bea6a1a02eb85b89bdd8b0642016137eef3ed3"
+    },
+    {
+      "path": "Data/transport_v0_36.json",
+      "size": 1199,
+      "sha256": "c39ed5a47daab99ab9c0b01ab8563af50237cc10175426551ac246a6e7c1e074"
+    },
+    {
+      "path": "Data/tutorial_flow_v1_0.json",
+      "size": 580,
+      "sha256": "f7aa66ba37e919844dbb405a8824b54017530797801515b42583dc090fdee067"
+    },
+    {
+      "path": "Data/v0_13_manifest.json",
+      "size": 427,
+      "sha256": "185277a15bca548e20ce181ef9544055d72dbbea5abcbd6c7bcef44ce246a9a6"
+    },
+    {
+      "path": "Data/v0_14_manifest.json",
+      "size": 205,
+      "sha256": "48ce4bdf8ef9bf1a48b28afd05d1f974c5c83a8a79381cd26fa8ed6f095bfb4a"
+    },
+    {
+      "path": "Data/v0_15_manifest.json",
+      "size": 188,
+      "sha256": "ddd466bf5db1cee7474339bd8339f136ab6f330d97ce21665946eddb0d41e116"
+    },
+    {
+      "path": "Data/warehouse_v0_9.json",
+      "size": 630,
+      "sha256": "3303dc41256e3f99402f8809db9420e6c400e3e61dd009eb77b3527988d7e557"
+    },
+    {
+      "path": "Data/weather_seasons_v0_38.json",
+      "size": 1476,
+      "sha256": "03df63724d85555523777ae1c4fd286423ea62cb0d96ca591ba0a015ef22f316"
+    },
+    {
+      "path": "Data/world_v0_6.json",
+      "size": 532,
+      "sha256": "ba0e5523858bdc8b96c7060c163a28385fa5c0f03765bdd684c8b1543cce54c1"
+    },
+    {
+      "path": "Docs/ART_PIPELINE.md",
+      "size": 759,
+      "sha256": "e2da0cc6ce738a74adc2d00343a03b626fa22d4cf22d495656a703a8c68a18f5"
+    },
+    {
+      "path": "Docs/FINAL_GAME_DESIGN_SUMMARY.md",
+      "size": 2144,
+      "sha256": "97f40b0c2e141c08f83f8a1a6c843f1b4af27e6112ee2d30f7d61894d3496954"
+    },
+    {
+      "path": "Docs/NEXT_STEPS.md",
+      "size": 1038,
+      "sha256": "4f53f5a2b1d26121a673bbc65df31777bc923ba5516c23bc804cc12508dc2114"
+    },
+    {
+      "path": "Docs/V0_11_MARKET_STORAGE.md",
+      "size": 431,
+      "sha256": "3e0a642e1165cfa95b38cbab52bb22084bb8fb68a40d3dbfed34ba215a34f896"
+    },
+    {
+      "path": "Docs/V0_12_PRODUCTION_FOOD_FRUIT.md",
+      "size": 596,
+      "sha256": "9f81f5257a61584e1f99c6951fd8fe7b52636783c1bdc381a0f55bc791ca2edd"
+    },
+    {
+      "path": "Docs/V0_13_ANIMAL_MEAT_FISH_PROCESSING.md",
+      "size": 1153,
+      "sha256": "645860e92eac6c6f9d49ada8c8f869e74fe2b029449266fba89ecfd8abe26d2d"
+    },
+    {
+      "path": "Docs/V0_14_ECONOMY_EQUIPMENT_BREEDING.md",
+      "size": 616,
+      "sha256": "f7c7654a3c85d6e8ca6c5e376176d1e0524ef1608408ba95ecc13873534d5bf6"
+    },
+    {
+      "path": "Docs/V0_22_SOCIAL_LEADERBOARD.md",
+      "size": 728,
+      "sha256": "f9b76b553a26dfd4983b43ff1fd5e5d5ef789a8888b8e4e6643805ada4fd382a"
+    },
+    {
+      "path": "Docs/V0_4_CHANGELOG.md",
+      "size": 750,
+      "sha256": "1e6f17a4894d8784930b32d048868a0065b24884b724d54f898f76de0b0edcde"
+    },
+    {
+      "path": "Docs/V0_5_CHANGELOG.md",
+      "size": 331,
+      "sha256": "64f3a378ef1af7b296603c2b61a04819fa2384dae670afb91a89a9cf464e5a16"
+    },
+    {
+      "path": "Docs/V0_6_CHANGELOG.md",
+      "size": 230,
+      "sha256": "25c86ba576a60576a6352048f141c1779ee79f0014bbb0f4044c5896c8299ab4"
+    },
+    {
+      "path": "Docs/V0_7_CHANGELOG.md",
+      "size": 196,
+      "sha256": "aa57c9025211c29dbd92ed867a753cfc93183a0775a86597bb72f91a9bcac3a8"
+    },
+    {
+      "path": "Docs/V0_8_CHANGELOG.md",
+      "size": 243,
+      "sha256": "a056e9e1c697553b1fc15fbfd1ee7aa37e4847fd03f5f67a256a6d04f74f4431"
+    },
+    {
+      "path": "Docs/V0_9_CHANGELOG.md",
+      "size": 679,
+      "sha256": "9f91b235cc825da0a4424296c5d4aea5adade06c10597ab9af22a64a396f6d32"
+    },
+    {
+      "path": "FINAL_README.md",
+      "size": 594,
+      "sha256": "23277567ebb433dc4335936fee5e575fd658e879e3783baab30e9ec12f1b29d4"
+    },
+    {
+      "path": "Previews/asset_catalog.png",
+      "size": 16411,
+      "sha256": "8644191f66b615dcda0bc28c25e216b67ec24e00e782095836a9b176ef5cf67d"
+    },
+    {
+      "path": "Previews/diamond_shop_concept.png",
+      "size": 27358,
+      "sha256": "7c0de95b9362a5aff77518647607dd7fad7d2740e41daf8c2babdb51f8833767"
+    },
+    {
+      "path": "README.md",
+      "size": 821,
+      "sha256": "28e64000efd2a96498e96348226e921d179caf1162aa4a0ed309fd80e3decc06"
+    },
+    {
+      "path": "STUDIO_CREDITS.md",
+      "size": 108,
+      "sha256": "72d8ab314d4c5a3bbbc400148cff995cded88658299fcdbdf57163bc83496f62"
+    },
+    {
+      "path": "project.godot",
+      "size": 641,
+      "sha256": "08f419b2561e3927ede34ad0a241fc7c93fc37285b517ffd5f304678e283e3d2"
+    },
+    {
+      "path": "scenes/FarmMain.tscn",
+      "size": 768,
+      "sha256": "2cd5b7643cbbc919afc8d0c654afbc3b06505e97a54a4117e28e0fd697d505a5"
+    },
+    {
+      "path": "scenes/Main.tscn",
+      "size": 466,
+      "sha256": "0a7732be6a7f4c95f4a9cdfdb71754ecedee8b3e6dcae1c52342e81d141bdefe"
+    },
+    {
+      "path": "scripts/animals/breeding_system_v19.gd",
+      "size": 279,
+      "sha256": "349e2ba4e78f8781eeb15d049d9db545e234a9fb90890db65aecc38965fa3267"
+    },
+    {
+      "path": "scripts/core/game_data.gd",
+      "size": 149,
+      "sha256": "a3c31df98ffdeb89479d9b2bcd0e48317ddd2079281c6c172735d2bfcc8a4d98"
+    },
+    {
+      "path": "scripts/core/localization.gd",
+      "size": 227,
+      "sha256": "a977a1b600a9b4b5b08b471085494f0e3ea6ab1adbd07866933f6231caf4d074"
+    },
+    {
+      "path": "scripts/economy/economy.gd",
+      "size": 406,
+      "sha256": "e9907e63b515269aba06aa0704b3849fc01cf2d977aa87dec17726efc66c7cb8"
+    },
+    {
+      "path": "scripts/farm/crop_system.gd",
+      "size": 1371,
+      "sha256": "f839e44cc1186f076bba2646744382536a19c9a6188f3f6755780b6cd7761395"
+    },
+    {
+      "path": "scripts/farm/farm_state.gd",
+      "size": 608,
+      "sha256": "e0aa9fbb27eeb645f98f31d2e88de76d9d40b563bf116b28cc5e7ccf6a0b3efd"
+    },
+    {
+      "path": "scripts/farm/land_expansion.gd",
+      "size": 364,
+      "sha256": "b07d6ca144aac65d9f4db6a80602c52b4fdc899585166948a248855642bbf50e"
+    },
+    {
+      "path": "scripts/farm/placement_system.gd",
+      "size": 1038,
+      "sha256": "493e219eb673b5e4fe33bef4281f9fe9c23da208309565ee9da7dbba0efbb91a"
+    },
+    {
+      "path": "scripts/farm/water_energy.gd",
+      "size": 316,
+      "sha256": "8db8fff71d8bb971e0992a45f697562de4f585ff876bf92e66ae467fac0ea2b3"
+    },
+    {
+      "path": "scripts/farm_core/farm_main.gd",
+      "size": 572,
+      "sha256": "dcd690d7e8ea042c5ee5dfe644158163f11fafc9f1f5ce43041a9e02339f5e1b"
+    },
+    {
+      "path": "scripts/main.gd",
+      "size": 205,
+      "sha256": "a30261b8ef5dd2720c2d5c9b89e2bca0da44b3c7d405d0705844c03f7dbd0f36"
+    },
+    {
+      "path": "scripts/orders/daily_order_system.gd",
+      "size": 558,
+      "sha256": "6d81eafddf857b9262142647e7c3442dd7f98b5bea21f0b26ae2ada98e517683"
+    },
+    {
+      "path": "scripts/orders/order_board.gd",
+      "size": 591,
+      "sha256": "cb1596ea32507c0569b045ccf92443e5a2898dba7e15e8e2480127499f4d105f"
+    },
+    {
+      "path": "scripts/production/processing_registry_v19.gd",
+      "size": 139,
+      "sha256": "a83b82e8a547d000268bab39c87ef149fd6ab622eb2bf45468de9429fc61b217"
+    },
+    {
+      "path": "scripts/production/production_system.gd",
+      "size": 489,
+      "sha256": "7d519818997ccb926590783695b3f9e62c3405c4134f4d2b4bcb2e6974925eff"
+    },
+    {
+      "path": "scripts/quests/quest_system.gd",
+      "size": 226,
+      "sha256": "7d418df56e185e6ef15538184355d324058c1fa1e0f0a557fccfc75b9fa8d326"
+    },
+    {
+      "path": "scripts/save/save_system.gd",
+      "size": 530,
+      "sha256": "5499f2ee89bdebaf91c6339d1130c0fd3ef431ab6dfdbb2bd73df115540ef324"
+    },
+    {
+      "path": "scripts/save/save_versioned.gd",
+      "size": 187,
+      "sha256": "7ffbef2ebc18ac30323dcc1756aa1babdbbcd4e432f14d6a064a3ca3bc346147"
+    },
+    {
+      "path": "scripts/shop/google_play_shop.gd",
+      "size": 546,
+      "sha256": "008a28ec1edb75ac4344727d9726421cdf0d8d3bd3afa3bd858fb08fbf6b8830"
+    },
+    {
+      "path": "scripts/shop/product_catalog.gd",
+      "size": 314,
+      "sha256": "c75ff964d8199be63b60dd2a294b64ad8dd25c3722d6dd0318c3d5e3e8c3bbfa"
+    },
+    {
+      "path": "scripts/social/leaderboard_service.gd",
+      "size": 507,
+      "sha256": "c89647746983c58b587a71c802367422fc672ff4a88598adb85a3bfdbadaee49"
+    },
+    {
+      "path": "scripts/social/social_system.gd",
+      "size": 252,
+      "sha256": "41697c10b84b461924a6cc3f61d8146c2f5117f3f319fcc881e5c246b399061c"
+    },
+    {
+      "path": "scripts/storage/storage_system.gd",
+      "size": 771,
+      "sha256": "3eb11078764ed7f8c5b4fe682811576bda0a009906d05c98f7cc18befb176112"
+    }
+  ]
+}

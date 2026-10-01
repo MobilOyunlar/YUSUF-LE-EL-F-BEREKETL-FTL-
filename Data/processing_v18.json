@@ -1,0 +1,13 @@
+{
+  "version":"0.18",
+  "methods":["cook","smoke","salt","dry","can","pickle","age","freeze"],
+  "new_products":[
+    {"id":"smoked_anchovy","inputs":["anchovy"],"machine":"smokehouse"},
+    {"id":"smoked_trout","inputs":["trout"],"machine":"smokehouse"},
+    {"id":"smoked_salmon","inputs":["salmon"],"machine":"smokehouse"},
+    {"id":"smoked_beef","inputs":["beef"],"machine":"smokehouse"},
+    {"id":"smoked_lamb","inputs":["lamb_meat"],"machine":"smokehouse"},
+    {"id":"frozen_fish_fillet","inputs":["fish_fillet"],"machine":"freezer"},
+    {"id":"frozen_meat_cut","inputs":["meat_cut"],"machine":"freezer"}
+  ]
+}

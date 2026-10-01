@@ -1,0 +1,8 @@
+{
+  "daily_targets": [
+    {"id":"sell_20","description":"Sell 20 products at the market","target":20,"reward":{"coins":500,"xp":60}},
+    {"id":"complete_3","description":"Complete 3 customer orders","target":3,"reward":{"coins":700,"xp":90}},
+    {"id":"produce_5","description":"Produce 5 processed goods","target":5,"reward":{"coins":450,"gems":10}},
+    {"id":"harvest_30","description":"Harvest 30 crops or fruits","target":30,"reward":{"coins":600,"xp":80}}
+  ]
+}

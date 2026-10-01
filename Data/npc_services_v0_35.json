@@ -1,0 +1,13 @@
+{
+  "services":[
+    {"id":"water","effect":"basic_happiness"},
+    {"id":"food","effect":"population_growth"},
+    {"id":"school","effect":"skill_growth"},
+    {"id":"clinic","effect":"health_service"},
+    {"id":"restaurant","effect":"visitor_spending"},
+    {"id":"bank","effect":"trade_bonus"},
+    {"id":"transport","effect":"delivery_speed"}
+  ],
+  "npc_roles":["farmer","worker","merchant","teacher","doctor","cook","driver","artisan"],
+  "npc_state":["home","working","shopping","walking","visiting_farm","event"]
+}

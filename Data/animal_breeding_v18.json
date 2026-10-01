@@ -1,0 +1,14 @@
+{
+  "version":"0.18",
+  "life_stages":["baby","young","adult","senior"],
+  "breeding_enabled":true,
+  "rules":{"adult_min_age":3,"gestation_days":2,"happiness_min":60,"health_min":70},
+  "species":[
+    {"id":"cow","offspring":"calf","products":["milk","beef","manure"]},
+    {"id":"sheep","offspring":"lamb","products":["milk","wool","lamb_meat","manure"]},
+    {"id":"goat","offspring":"kid","products":["milk","goat_hair","goat_meat","manure"]},
+    {"id":"chicken","offspring":"chick","products":["egg","chicken_meat","feather"]},
+    {"id":"duck","offspring":"duckling","products":["duck_egg","duck_meat","feather"]},
+    {"id":"goose","offspring":"gosling","products":["goose_egg","goose_meat","feather"]}
+  ]
+}

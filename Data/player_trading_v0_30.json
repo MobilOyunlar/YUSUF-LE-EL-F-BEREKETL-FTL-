@@ -1,0 +1,12 @@
+{
+  "version": "0.30",
+  "system": "player_trading",
+  "enabled": true,
+  "markets": ["global_trade_board", "cooperative_market"],
+  "listing_limits": {"daily_listings": 20, "max_active_listings": 10},
+  "trade_rules": {"server_authoritative": true, "min_price_multiplier": 0.5, "max_price_multiplier": 2.0, "account_age_hours": 24},
+  "allowed_categories": ["crops", "animal_products", "processed_food", "fish", "meat", "materials"],
+  "blocked_categories": ["diamonds", "account_items", "premium_entitlements"],
+  "fees": {"listing_percent": 2, "transaction_percent": 5},
+  "anti_abuse": ["self_trade_detection", "rapid_trade_detection", "multi_account_pattern_detection", "duplicate_delivery_prevention"]
+}

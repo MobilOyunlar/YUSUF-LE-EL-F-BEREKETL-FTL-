@@ -1,0 +1,80 @@
+{
+  "version": "0.41",
+  "energy_system": {
+    "source": [
+      "wind_turbine",
+      "solar_panel",
+      "battery"
+    ],
+    "priority": "renewable_first",
+    "blackout_behavior": "automation_pauses_safely"
+  },
+  "automation_center": {
+    "levels": [
+      {
+        "level": 1,
+        "features": [
+          "machine_queue"
+        ]
+      },
+      {
+        "level": 2,
+        "features": [
+          "automatic_animal_feeding"
+        ]
+      },
+      {
+        "level": 3,
+        "features": [
+          "automatic_product_collection"
+        ]
+      },
+      {
+        "level": 4,
+        "features": [
+          "automatic_sowing"
+        ]
+      },
+      {
+        "level": 5,
+        "features": [
+          "automatic_harvesting"
+        ]
+      },
+      {
+        "level": 6,
+        "features": [
+          "smart_production_routing",
+          "priority_rules"
+        ]
+      }
+    ]
+  },
+  "machines": {
+    "queue_enabled": true,
+    "max_parallel_jobs_by_level": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      4
+    ],
+    "maintenance": true,
+    "maintenance_blocks_machine_when_broken": true,
+    "energy_per_job": {
+      "auto_harvest": 10,
+      "auto_sowing": 8,
+      "irrigation": 5,
+      "animal_feeding_cycle": 3,
+      "production_cycle": 10
+    }
+  },
+  "factory_rules": {
+    "input_validation": true,
+    "storage_validation": true,
+    "recipe_validation": true,
+    "server_authoritative_economy": true,
+    "no_negative_inventory": true
+  }
+}

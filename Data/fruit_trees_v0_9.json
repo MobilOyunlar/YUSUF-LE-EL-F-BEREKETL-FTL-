@@ -1,0 +1,278 @@
+{
+  "version": "0.9",
+  "trees": [
+    {
+      "id": "apple",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 4,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "pear",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 5,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "cherry",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 6,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "sour_cherry",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 7,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "peach",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 3,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "apricot",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 4,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "plum",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 5,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "quince",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 6,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "pomegranate",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 7,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "fig",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 3,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "olive",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 4,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "banana",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 5,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "pineapple",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 6,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "mango",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 7,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "coconut",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 3,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "papaya",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 4,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "avocado",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 5,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "orange",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 6,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "mandarin",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 7,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "lemon",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 3,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    },
+    {
+      "id": "kiwi",
+      "growth_stages": [
+        "sapling",
+        "young",
+        "flowering",
+        "fruiting",
+        "ready"
+      ],
+      "harvest_cycle_days": 4,
+      "data_driven": true,
+      "future_asset": "3D_tree_and_fruit_model"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version":"0.13",
+  "tiers":[
+    {"id":"normal","price_multiplier":1.0},
+    {"id":"good","price_multiplier":1.1},
+    {"id":"very_good","price_multiplier":1.25},
+    {"id":"premium","price_multiplier":1.5},
+    {"id":"legendary","price_multiplier":2.0}
+  ],
+  "inputs":["soil_quality","fertilizer","irrigation","animal_happiness","feed_quality","machine_level","recipe_duration","breed_rarity"],
+  "market_rule":"quality_multiplier_applies_after_dynamic_demand"
+}

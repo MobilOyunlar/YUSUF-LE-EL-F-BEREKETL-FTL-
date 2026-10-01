@@ -1,0 +1,7 @@
+{
+  "system": "market_board",
+  "fixed": true,
+  "slots": 12,
+  "features": ["player_listing", "order_board", "price_band", "demand_hint", "sell_all", "cancel_listing"],
+  "pricing": {"min": "product.min_sell_price", "base": "product.base_sell_price", "max": "product.max_sell_price"}
+}

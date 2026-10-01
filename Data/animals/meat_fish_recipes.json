@@ -1,0 +1,92 @@
+[
+  {
+    "id": "beef_mince_recipe",
+    "inputs": {
+      "beef_carcass": 1
+    },
+    "output": "beef_mince",
+    "time": 30,
+    "machine": "butcher_station"
+  },
+  {
+    "id": "beef_cubed_recipe",
+    "inputs": {
+      "beef_carcass": 1
+    },
+    "output": "beef_cubed",
+    "time": 30,
+    "machine": "butcher_station"
+  },
+  {
+    "id": "steak_recipe",
+    "inputs": {
+      "beef_carcass": 1
+    },
+    "output": "beef_steak",
+    "time": 35,
+    "machine": "butcher_station"
+  },
+  {
+    "id": "smoked_beef_recipe",
+    "inputs": {
+      "beef_cubed": 2
+    },
+    "output": "smoked_beef",
+    "time": 120,
+    "machine": "smokehouse"
+  },
+  {
+    "id": "smoked_lamb_recipe",
+    "inputs": {
+      "lamb_cubed": 2
+    },
+    "output": "smoked_lamb",
+    "time": 120,
+    "machine": "smokehouse"
+  },
+  {
+    "id": "smoked_goat_recipe",
+    "inputs": {
+      "goat_cubed": 2
+    },
+    "output": "smoked_goat",
+    "time": 120,
+    "machine": "smokehouse"
+  },
+  {
+    "id": "smoked_chicken_recipe",
+    "inputs": {
+      "chicken_whole": 2
+    },
+    "output": "smoked_chicken",
+    "time": 90,
+    "machine": "smokehouse"
+  },
+  {
+    "id": "smoked_trout_recipe",
+    "inputs": {
+      "trout_fillet": 2
+    },
+    "output": "smoked_trout",
+    "time": 90,
+    "machine": "smokehouse"
+  },
+  {
+    "id": "smoked_salmon_recipe",
+    "inputs": {
+      "salmon_fillet": 2
+    },
+    "output": "smoked_salmon",
+    "time": 120,
+    "machine": "smokehouse"
+  },
+  {
+    "id": "smoked_anchovy_recipe",
+    "inputs": {
+      "anchovy_fillet": 4
+    },
+    "output": "smoked_anchovy",
+    "time": 75,
+    "machine": "smokehouse"
+  }
+]

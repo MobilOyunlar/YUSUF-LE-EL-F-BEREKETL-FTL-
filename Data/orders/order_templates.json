@@ -1,0 +1,10 @@
+{
+  "orders": [
+    {"id":"order_wheat_01","items":[{"product":"wheat","qty":10}],"coins":120,"xp":18},
+    {"id":"order_flour_bread_01","items":[{"product":"flour","qty":5},{"product":"bread","qty":3}],"coins":420,"xp":45},
+    {"id":"order_dairy_01","items":[{"product":"milk","qty":6},{"product":"cheese","qty":2}],"coins":650,"xp":70},
+    {"id":"order_fruit_juice_01","items":[{"product":"apple_juice","qty":4},{"product":"orange_juice","qty":3}],"coins":780,"xp":82},
+    {"id":"order_food_01","items":[{"product":"hamburger","qty":2},{"product":"pizza","qty":2}],"coins":1450,"xp":130},
+    {"id":"order_turkish_food_01","items":[{"product":"pide","qty":3},{"product":"lahmacun","qty":3}],"coins":1600,"xp":145}
+  ]
+}

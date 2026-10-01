@@ -1,0 +1,10 @@
+{
+  "version": "0.30",
+  "delivery": {
+    "vehicle": "trade_van",
+    "queue_enabled": true,
+    "delivery_status": ["listed", "reserved", "in_transit", "delivered", "expired", "cancelled"],
+    "max_queue": 10
+  },
+  "notifications": ["listing_sold", "listing_expired", "delivery_received", "trade_cancelled"]
+}

@@ -1,0 +1,14 @@
+{
+  "version": "0.28",
+  "systems": [
+    "seasonal_events",
+    "event_pass",
+    "event_shop",
+    "event_missions",
+    "leaderboard_event_linking"
+  ],
+  "event_pass": {"tiers": 30, "free_track": true, "premium_track": true},
+  "event_shop": {"currency": "event_tokens", "limited_stock": true},
+  "mission_types": ["harvest", "production", "animal_care", "orders", "social_help"],
+  "server_authoritative": true
+}

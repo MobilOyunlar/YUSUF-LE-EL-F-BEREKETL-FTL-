@@ -1,0 +1,9 @@
+{
+  "version": "0.18",
+  "systems": [
+    {"id":"cold_storage","name_tr":"Soğuk Depo","capacity":250,"energy_per_hour":2,"allowed_categories":["milk","meat","fish","seafood","fruit","prepared_food"]},
+    {"id":"freezer","name_tr":"Dondurucu Oda","capacity":180,"energy_per_hour":4,"preserves_quality":true},
+    {"id":"smokehouse_super","name_tr":"Süper Tütsüleme Evi","speed_multiplier":2.0,"capacity":6,"diamond_cost":450},
+    {"id":"butcher_super","name_tr":"Süper Kasap Tezgahı","speed_multiplier":2.0,"capacity":8,"diamond_cost":400}
+  ]
+}

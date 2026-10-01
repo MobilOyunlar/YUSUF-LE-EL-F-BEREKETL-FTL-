@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "opening": "Yusuf ve Elif şehir hayatından sıkılır ve dedelerinden kalan eski çiftliğe geri döner.",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "Dedemin Çiftliği",
+      "unlock_level": 1,
+      "tasks": [
+        "çiftliği temizle",
+        "5 yabani ot topla",
+        "ilk tarlayı hazırla"
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "İlk Hasat",
+      "unlock_level": 2,
+      "tasks": [
+        "5 buğday ek",
+        "buğdayı yetiştir",
+        "ilk hasadı yap"
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "Köy Mağazası",
+      "unlock_level": 3,
+      "tasks": [
+        "mağazayı aç",
+        "ilk tohumu satın al",
+        "ilk ürününü sat"
+      ]
+    },
+    {
+      "id": "ch04",
+      "title": "İlk Tavuğumuz",
+      "unlock_level": 4,
+      "tasks": [
+        "kümesi aç",
+        "tavuk satın al",
+        "yumurta topla"
+      ]
+    },
+    {
+      "id": "ch05",
+      "title": "İlk İneğimiz",
+      "unlock_level": 5,
+      "tasks": [
+        "inek alanını aç",
+        "inek satın al",
+        "süt topla"
+      ]
+    },
+    {
+      "id": "ch06",
+      "title": "Eski Değirmen",
+      "unlock_level": 6,
+      "tasks": [
+        "değirmeni aç",
+        "buğdayı una dönüştür",
+        "işlenmiş ürünü sat"
+      ]
+    },
+    {
+      "id": "ch07",
+      "title": "Çiftliği Büyütüyoruz",
+      "unlock_level": 10,
+      "tasks": [
+        "arazi genişlet",
+        "yeni üretim alanı kur",
+        "sipariş tamamla"
+      ]
+    },
+    {
+      "id": "ch08",
+      "title": "Ormana Giden Yol",
+      "unlock_level": 20,
+      "tasks": [
+        "orman yolunu aç",
+        "kereste topla",
+        "yeni üretim zinciri başlat"
+      ]
+    },
+    {
+      "id": "ch09",
+      "title": "Maden ve Deniz",
+      "unlock_level": 30,
+      "tasks": [
+        "maden bölgesini aç",
+        "ilk cevheri çıkar",
+        "ilk balığı yakala"
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "Kasabaya Doğru",
+      "unlock_level": 40,
+      "tasks": [
+        "köyü geliştir",
+        "kasaba hizmetlerini aç",
+        "ilk bölgesel siparişi tamamla"
+      ]
+    },
+    {
+      "id": "ch11",
+      "title": "Büyük Çiftlik",
+      "unlock_level": 50,
+      "tasks": [
+        "büyük arazi genişletmesi",
+        "ileri üretim",
+        "çiftlik düzenini tamamla"
+      ]
+    }
+  ]
+}

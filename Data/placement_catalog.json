@@ -1,0 +1,31 @@
+{
+  "fixed": [
+    "water_pump",
+    "mill"
+  ],
+  "movable": [
+    "house",
+    "barn",
+    "field",
+    "animal_area",
+    "oven",
+    "cheese_machine",
+    "hive",
+    "wind_turbine",
+    "road",
+    "fence",
+    "tree",
+    "rock",
+    "flower",
+    "pet_area",
+    "storage",
+    "decoration"
+  ],
+  "edit_actions": [
+    "move",
+    "rotate",
+    "store",
+    "place",
+    "remove"
+  ]
+}

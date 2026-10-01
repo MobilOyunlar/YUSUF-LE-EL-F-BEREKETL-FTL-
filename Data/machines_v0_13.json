@@ -1,0 +1,20 @@
+{
+  "version":"0.13",
+  "machines":[
+    {"id":"butchery","name_tr":"Et İşleme Tesisi","category":"meat","level":1,"fixed":false},
+    {"id":"smokehouse","name_tr":"Tütsüleme Evi","category":"smoking","level":1,"fixed":false},
+    {"id":"canner","name_tr":"Konserve Makinesi","category":"canning","level":1,"fixed":false},
+    {"id":"dryer","name_tr":"Kurutma Makinesi","category":"drying","level":1,"fixed":false},
+    {"id":"salting_station","name_tr":"Tuzlama İstasyonu","category":"salting","level":1,"fixed":false},
+    {"id":"fermentation_tank","name_tr":"Fermantasyon Tankı","category":"fermentation","level":1,"fixed":false},
+    {"id":"aging_cellar","name_tr":"Olgunlaştırma Mahzeni","category":"aging","level":1,"fixed":true},
+    {"id":"grill_station","name_tr":"Izgara İstasyonu","category":"cooking","level":1,"fixed":false},
+    {"id":"hamburger_machine","name_tr":"Hamburger Makinesi","category":"meal","level":1,"fixed":false},
+    {"id":"pide_machine","name_tr":"Pide Makinesi","category":"meal","level":1,"fixed":false},
+    {"id":"lahmacun_machine","name_tr":"Lahmacun Makinesi","category":"meal","level":1,"fixed":false},
+    {"id":"pizza_machine","name_tr":"Pizza Makinesi","category":"meal","level":1,"fixed":false},
+    {"id":"fruit_juice_machine","name_tr":"Meyve Suyu Makinesi","category":"fruit","level":1,"fixed":false},
+    {"id":"jam_machine","name_tr":"Reçel Makinesi","category":"fruit","level":1,"fixed":false}
+  ],
+  "future_advanced_equipment":["industrial_butchery","industrial_smokehouse","smart_canning_line","automated_food_line","cold_storage","freezer_room","delivery_truck_station"]
+}

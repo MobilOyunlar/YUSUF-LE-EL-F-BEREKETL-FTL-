@@ -1,0 +1,11 @@
+{
+  "season_types": {"weekly": 7, "monthly": 30, "yearly": 365},
+  "categories": ["farm_value","harvest","production","orders","animal_care","xp"],
+  "reward_policy": {
+    "top_1": {"coins": 50000, "diamonds": 250, "badge": true},
+    "top_3": {"coins": 30000, "diamonds": 150, "badge": true},
+    "top_10": {"coins": 15000, "diamonds": 75, "badge": true},
+    "top_100": {"coins": 5000, "diamonds": 25, "badge": false}
+  },
+  "note": "Placeholder balancing values; final rewards require economy testing."
+}

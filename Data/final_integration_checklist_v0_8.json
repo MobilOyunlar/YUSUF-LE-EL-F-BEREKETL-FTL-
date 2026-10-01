@@ -1,0 +1,34 @@
+{
+  "systems": [
+    "farm",
+    "crops",
+    "animals",
+    "production",
+    "inventory",
+    "economy",
+    "quests",
+    "water",
+    "energy",
+    "land_expansion",
+    "placement",
+    "localization",
+    "save",
+    "shop",
+    "social"
+  ],
+  "fixed_objects": [
+    "water_pump",
+    "mill"
+  ],
+  "movable_objects": "data/placement_catalog.json",
+  "locales": [
+    "tr",
+    "en"
+  ],
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "next_real_build": "scene_asset_integration_and_device_testing",
+  "current_internal_version": "0.9"
+}

@@ -1,0 +1,11 @@
+{
+  "version":"0.40",
+  "mode":"FarmEditMode",
+  "actions":["move","rotate","store","place","remove","duplicate","multi_select"],
+  "movable_categories":["house","barn","fields","animal_area","production_machine","wind_turbine","roads","fences","trees","rocks","flowers","pet_area","decorations"],
+  "fixed_objects":["water_pump","mill","warehouse","market"],
+  "snap_grid":0.5,
+  "collision_check":true,
+  "restore_original_layout_on_cancel":true,
+  "save_layout_after_confirm":true
+}

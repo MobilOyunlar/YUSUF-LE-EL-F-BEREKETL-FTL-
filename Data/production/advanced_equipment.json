@@ -1,0 +1,50 @@
+{
+  "machines": [
+    {
+      "id": "butcher_station",
+      "name": "Kasap Tezgahı",
+      "level": 1,
+      "capacity": 2,
+      "speed": 1.0
+    },
+    {
+      "id": "smokehouse",
+      "name": "Tütsüleme Evi",
+      "level": 1,
+      "capacity": 4,
+      "speed": 1.0
+    },
+    {
+      "id": "super_butcher_station",
+      "name": "Süper Kasap Tezgahı",
+      "level": 1,
+      "capacity": 6,
+      "speed": 2.0,
+      "premium": true,
+      "diamond_cost": 350
+    },
+    {
+      "id": "super_smokehouse",
+      "name": "Süper Tütsüleme Evi",
+      "level": 1,
+      "capacity": 8,
+      "speed": 2.0,
+      "premium": true,
+      "diamond_cost": 450
+    },
+    {
+      "id": "cold_storage",
+      "name": "Soğuk Depo",
+      "level": 1,
+      "capacity": 250,
+      "energy_per_hour": 4
+    },
+    {
+      "id": "deep_freezer",
+      "name": "Dondurucu Oda",
+      "level": 1,
+      "capacity": 180,
+      "energy_per_hour": 7
+    }
+  ]
+}

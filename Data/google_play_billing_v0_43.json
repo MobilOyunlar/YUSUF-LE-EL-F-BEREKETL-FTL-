@@ -1,0 +1,67 @@
+{
+  "version": "0.43",
+  "store": "google_play_billing",
+  "currency": "diamonds",
+  "product_type": "consumable",
+  "products": [
+    {
+      "product_id": "diamond_500",
+      "diamonds": 500
+    },
+    {
+      "product_id": "diamond_1500",
+      "diamonds": 1500
+    },
+    {
+      "product_id": "diamond_2500",
+      "diamonds": 2500
+    },
+    {
+      "product_id": "diamond_4000",
+      "diamonds": 4000
+    },
+    {
+      "product_id": "diamond_8000",
+      "diamonds": 8000
+    },
+    {
+      "product_id": "diamond_16000",
+      "diamonds": 16000
+    },
+    {
+      "product_id": "diamond_20000",
+      "diamonds": 20000
+    },
+    {
+      "product_id": "diamond_30000",
+      "diamonds": 30000
+    },
+    {
+      "product_id": "diamond_50000",
+      "diamonds": 50000
+    }
+  ],
+  "pricing": {
+    "source": "store_localized_price",
+    "hardcode_prices": false
+  },
+  "purchase_flow": [
+    "query_products",
+    "launch_purchase",
+    "verify_purchase_server",
+    "grant_diamonds_server",
+    "acknowledge_or_consume"
+  ],
+  "security": {
+    "never_trust_client_purchase": true,
+    "idempotent_grant": true,
+    "receipt_audit_log": true
+  },
+  "restore": {
+    "enabled": true,
+    "server_reconciliation": true
+  },
+  "refunds": {
+    "server_reconciliation": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version":"0.12",
+  "products":[
+    {"id":"apple_juice","input":"apple","machine":"fruit_juice_machine"},
+    {"id":"orange_juice","input":"orange","machine":"fruit_juice_machine"},
+    {"id":"pineapple_juice","input":"pineapple","machine":"fruit_juice_machine"},
+    {"id":"apple_jam","input":"apple","machine":"jam_machine"},
+    {"id":"strawberry_jam","input":"strawberry","machine":"jam_machine"},
+    {"id":"dried_fig","input":"fig","machine":"drying_machine"}
+  ]
+}

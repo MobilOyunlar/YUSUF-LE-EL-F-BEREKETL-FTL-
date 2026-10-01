@@ -1,0 +1,15 @@
+{
+  "version": "0.19",
+  "life_stages": ["baby", "young", "adult", "senior"],
+  "breeding": {"enabled": true, "requires_adult_pair": true, "cooldown_hours": 24, "inheritance": ["breed", "quality_potential", "growth_rate"]},
+  "animals": {
+    "cow": {"offspring": "calf", "milk": true, "meat": ["beef", "ground_beef", "cubed_beef", "steak"]},
+    "sheep": {"offspring": "lamb", "milk": true, "wool": true, "meat": ["lamb", "ground_lamb", "cubed_lamb"]},
+    "goat": {"offspring": "kid", "milk": true, "meat": ["goat_meat", "ground_goat", "cubed_goat"]},
+    "chicken": {"offspring": "chick", "egg": true, "meat": ["chicken_meat", "breast", "thigh", "wing"]},
+    "turkey": {"offspring": "poult", "egg": true, "meat": ["turkey_meat", "turkey_breast"]},
+    "duck": {"offspring": "duckling", "egg": true, "meat": ["duck_meat"]},
+    "goose": {"offspring": "gosling", "egg": true, "meat": ["goose_meat"]},
+    "rabbit": {"offspring": "kit", "meat": ["rabbit_meat"]}
+  }
+}

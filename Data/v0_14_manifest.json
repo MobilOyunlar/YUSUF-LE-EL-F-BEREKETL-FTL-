@@ -1,0 +1,7 @@
+{
+  "version":"0.14",
+  "status":"internal-development",
+  "final_release":false,
+  "focus":["economy","equipment_upgrades","breeding","cold_chain","bulk_delivery"],
+  "previous_internal_version":"0.13"
+}

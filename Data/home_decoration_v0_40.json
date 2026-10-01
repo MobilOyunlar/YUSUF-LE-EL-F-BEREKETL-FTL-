@@ -1,0 +1,11 @@
+{
+  "version":"0.40",
+  "homes":{
+    "yusuf_house":{"interior_editable":true,"exterior_editable":true,"outdoor_garden":true},
+    "elif_house":{"interior_editable":true,"exterior_editable":true,"outdoor_garden":true}
+  },
+  "categories":["furniture","bedroom","kitchen","living_room","lighting","wall_decor","flooring","wallpaper","plants","garden","seasonal","character_outfits"],
+  "placement":{"move":true,"rotate":true,"store":true,"remove":true},
+  "outfits":{"yusuf":["default","work","summer","winter","formal"],"elif":["default","work","summer","winter","formal"]},
+  "save_scope":"per_home_and_character"
+}

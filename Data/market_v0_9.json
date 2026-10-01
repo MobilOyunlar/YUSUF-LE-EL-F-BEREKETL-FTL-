@@ -1,0 +1,335 @@
+{
+  "version": "0.9",
+  "currency": "coins",
+  "building_id": "market",
+  "fixed": true,
+  "purpose": "Sell farm, animal, processed and cooked products.",
+  "levels": [
+    {
+      "level": 1,
+      "slots": 4,
+      "upgrade_cost_coins": 0,
+      "unlock_level": 1
+    },
+    {
+      "level": 2,
+      "slots": 8,
+      "upgrade_cost_coins": 2500,
+      "unlock_level": 6
+    },
+    {
+      "level": 3,
+      "slots": 12,
+      "upgrade_cost_coins": 7500,
+      "unlock_level": 12
+    },
+    {
+      "level": 4,
+      "slots": 16,
+      "upgrade_cost_coins": 20000,
+      "unlock_level": 20
+    },
+    {
+      "level": 5,
+      "slots": 24,
+      "upgrade_cost_coins": 50000,
+      "unlock_level": 30
+    }
+  ],
+  "pricing_rules": {
+    "min_multiplier": 0.7,
+    "base_multiplier": 1.0,
+    "max_multiplier": 1.5,
+    "dynamic_demand_enabled": true,
+    "special_order_bonus_enabled": true
+  },
+  "sale_prices": [
+    {
+      "id": "wheat",
+      "name_tr": "Buğday",
+      "min": 8,
+      "base": 12,
+      "max": 18
+    },
+    {
+      "id": "corn",
+      "name_tr": "Mısır",
+      "min": 10,
+      "base": 15,
+      "max": 22
+    },
+    {
+      "id": "rye",
+      "name_tr": "Çavdar",
+      "min": 12,
+      "base": 18,
+      "max": 27
+    },
+    {
+      "id": "egg",
+      "name_tr": "Yumurta",
+      "min": 15,
+      "base": 22,
+      "max": 35
+    },
+    {
+      "id": "milk",
+      "name_tr": "Süt",
+      "min": 20,
+      "base": 30,
+      "max": 45
+    },
+    {
+      "id": "wool",
+      "name_tr": "Yün",
+      "min": 25,
+      "base": 38,
+      "max": 55
+    },
+    {
+      "id": "honey",
+      "name_tr": "Bal",
+      "min": 100,
+      "base": 150,
+      "max": 225
+    },
+    {
+      "id": "flour",
+      "name_tr": "Un",
+      "min": 30,
+      "base": 45,
+      "max": 65
+    },
+    {
+      "id": "bread",
+      "name_tr": "Ekmek",
+      "min": 50,
+      "base": 75,
+      "max": 110
+    },
+    {
+      "id": "cheese",
+      "name_tr": "Peynir",
+      "min": 80,
+      "base": 120,
+      "max": 175
+    },
+    {
+      "id": "apple",
+      "name_tr": "Elma",
+      "min": 25,
+      "base": 40,
+      "max": 60
+    },
+    {
+      "id": "pear",
+      "name_tr": "Armut",
+      "min": 25,
+      "base": 40,
+      "max": 60
+    },
+    {
+      "id": "cherry",
+      "name_tr": "Kiraz",
+      "min": 30,
+      "base": 45,
+      "max": 68
+    },
+    {
+      "id": "sour_cherry",
+      "name_tr": "Vişne",
+      "min": 30,
+      "base": 45,
+      "max": 68
+    },
+    {
+      "id": "peach",
+      "name_tr": "Şeftali",
+      "min": 35,
+      "base": 52,
+      "max": 78
+    },
+    {
+      "id": "apricot",
+      "name_tr": "Kayısı",
+      "min": 35,
+      "base": 52,
+      "max": 78
+    },
+    {
+      "id": "plum",
+      "name_tr": "Erik",
+      "min": 30,
+      "base": 45,
+      "max": 68
+    },
+    {
+      "id": "quince",
+      "name_tr": "Ayva",
+      "min": 30,
+      "base": 45,
+      "max": 68
+    },
+    {
+      "id": "pomegranate",
+      "name_tr": "Nar",
+      "min": 45,
+      "base": 68,
+      "max": 100
+    },
+    {
+      "id": "fig",
+      "name_tr": "İncir",
+      "min": 45,
+      "base": 68,
+      "max": 100
+    },
+    {
+      "id": "olive",
+      "name_tr": "Zeytin",
+      "min": 50,
+      "base": 75,
+      "max": 110
+    },
+    {
+      "id": "banana",
+      "name_tr": "Muz",
+      "min": 55,
+      "base": 82,
+      "max": 125
+    },
+    {
+      "id": "pineapple",
+      "name_tr": "Ananas",
+      "min": 70,
+      "base": 105,
+      "max": 160
+    },
+    {
+      "id": "mango",
+      "name_tr": "Mango",
+      "min": 75,
+      "base": 112,
+      "max": 170
+    },
+    {
+      "id": "coconut",
+      "name_tr": "Hindistan Cevizi",
+      "min": 80,
+      "base": 120,
+      "max": 180
+    },
+    {
+      "id": "papaya",
+      "name_tr": "Papaya",
+      "min": 70,
+      "base": 105,
+      "max": 160
+    },
+    {
+      "id": "avocado",
+      "name_tr": "Avokado",
+      "min": 80,
+      "base": 120,
+      "max": 180
+    },
+    {
+      "id": "orange",
+      "name_tr": "Portakal",
+      "min": 40,
+      "base": 60,
+      "max": 90
+    },
+    {
+      "id": "mandarin",
+      "name_tr": "Mandalina",
+      "min": 35,
+      "base": 52,
+      "max": 78
+    },
+    {
+      "id": "lemon",
+      "name_tr": "Limon",
+      "min": 35,
+      "base": 52,
+      "max": 78
+    },
+    {
+      "id": "kiwi",
+      "name_tr": "Kivi",
+      "min": 50,
+      "base": 75,
+      "max": 110
+    },
+    {
+      "id": "apple_juice",
+      "name_tr": "Elma Suyu",
+      "min": 80,
+      "base": 120,
+      "max": 180
+    },
+    {
+      "id": "orange_juice",
+      "name_tr": "Portakal Suyu",
+      "min": 90,
+      "base": 135,
+      "max": 205
+    },
+    {
+      "id": "jam",
+      "name_tr": "Reçel",
+      "min": 100,
+      "base": 150,
+      "max": 225
+    },
+    {
+      "id": "smoothie",
+      "name_tr": "Smoothie",
+      "min": 130,
+      "base": 195,
+      "max": 290
+    },
+    {
+      "id": "hamburger",
+      "name_tr": "Hamburger",
+      "min": 180,
+      "base": 270,
+      "max": 400
+    },
+    {
+      "id": "pide",
+      "name_tr": "Pide",
+      "min": 200,
+      "base": 300,
+      "max": 450
+    },
+    {
+      "id": "lahmacun",
+      "name_tr": "Lahmacun",
+      "min": 220,
+      "base": 330,
+      "max": 500
+    },
+    {
+      "id": "pizza",
+      "name_tr": "Pizza",
+      "min": 250,
+      "base": 375,
+      "max": 575
+    },
+    {
+      "id": "cake",
+      "name_tr": "Kek",
+      "min": 150,
+      "base": 225,
+      "max": 340
+    },
+    {
+      "id": "ice_cream",
+      "name_tr": "Dondurma",
+      "min": 160,
+      "base": 240,
+      "max": 360
+    }
+  ]
+}

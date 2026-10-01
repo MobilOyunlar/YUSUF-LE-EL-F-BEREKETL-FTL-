@@ -1,0 +1,24 @@
+[application]
+
+config/name="Yusuf ile Elif: Bereketli Çiftliği"
+run/main_scene="res://scenes/FarmMain.tscn"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.72, 0.88, 0.96, 1)
+
+[autoload]
+
+GameData="*res://scripts/core/game_data.gd"
+Localization="*res://scripts/core/localization.gd"
+FarmState="*res://scripts/farm/farm_state.gd"
+Economy="*res://scripts/economy/economy.gd"

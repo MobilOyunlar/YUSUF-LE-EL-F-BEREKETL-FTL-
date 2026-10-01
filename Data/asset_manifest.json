@@ -1,0 +1,36 @@
+{
+  "project": "Yusuf ile Elif: Bereketli Çiftliği",
+  "version": "visual-base-v0.1",
+  "status": "starter low-poly visual foundation",
+  "languages": [
+    "tr",
+    "en"
+  ],
+  "assets": [
+    "Assets/Animals/Cat.glb",
+    "Assets/Animals/Chicken.glb",
+    "Assets/Animals/Cow.glb",
+    "Assets/Animals/Dog.glb",
+    "Assets/Animals/Goat.glb",
+    "Assets/Animals/Horse.glb",
+    "Assets/Animals/Llama.glb",
+    "Assets/Animals/Rabbit.glb",
+    "Assets/Animals/Sheep.glb",
+    "Assets/Buildings/barn.glb",
+    "Assets/Buildings/cheese_machine.glb",
+    "Assets/Buildings/hive.glb",
+    "Assets/Buildings/house.glb",
+    "Assets/Buildings/mill.glb",
+    "Assets/Buildings/oven.glb",
+    "Assets/Characters/Elif.glb",
+    "Assets/Characters/Yusuf.glb",
+    "Assets/Environment/crop_wheat.glb",
+    "Assets/Environment/fence.glb",
+    "Assets/Environment/river.glb",
+    "Assets/Environment/rock.glb",
+    "Assets/Environment/tree.glb",
+    "Assets/Infrastructure/water_pump.glb",
+    "Assets/Infrastructure/wind_turbine.glb"
+  ],
+  "note": "Assets are original procedural low-poly placeholders/foundation pieces intended for integration and later refinement."
+}

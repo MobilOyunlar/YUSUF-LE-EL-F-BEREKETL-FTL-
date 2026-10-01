@@ -1,0 +1,12 @@
+{
+  "version":"0.33",
+  "equipment":[
+    {"id":"pickaxe","levels":5,"durability":100,"targets":["stone","clay","coal","iron_ore"]},
+    {"id":"drill","levels":5,"durability":150,"targets":["iron_ore","copper_ore","limestone"]},
+    {"id":"jackhammer","levels":5,"durability":200,"targets":["limestone","silver_ore","gold_ore"]},
+    {"id":"mine_cart","levels":3,"capacity":100},
+    {"id":"ore_loader","levels":3,"capacity":250}
+  ],
+  "repair":{"materials":["iron_ingot","copper_ingot","stone"],"instant_repair_diamonds":true},
+  "automation":{"requires_automation_center":true,"energy_cost_per_cycle":15}
+}

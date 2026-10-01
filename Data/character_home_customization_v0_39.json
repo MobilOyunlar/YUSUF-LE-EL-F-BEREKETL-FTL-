@@ -1,0 +1,11 @@
+{
+  "system": "character_home_customization",
+  "homes": {
+    "yusuf_house": {"owner":"yusuf","editable_exterior":true,"editable_interior":true,"closet":true},
+    "elif_house": {"owner":"elif","editable_exterior":true,"editable_interior":true,"closet":true}
+  },
+  "decor_categories":["bed","wardrobe","table","chair","sofa","lamp","rug","wall_decor","plant","kitchen","storage","garden","seasonal"],
+  "character_customization": {"outfits":true,"hats":true,"shoes":true,"seasonal_outfits":true},
+  "placement": {"move":true,"rotate":true,"store":true,"replace":true},
+  "save": {"home_layout_per_character":true,"outfit_per_character":true}
+}

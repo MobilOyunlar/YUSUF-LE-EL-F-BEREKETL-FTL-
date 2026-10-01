@@ -1,0 +1,60 @@
+{
+  "version": "0.44",
+  "mobile_targets": [
+    "android",
+    "ios"
+  ],
+  "rendering": {
+    "quality_profiles": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "dynamic_resolution": true,
+    "texture_compression_ready": true
+  },
+  "world_streaming": {
+    "chunk_size": "data_driven",
+    "load_radius": 2,
+    "unload_far_chunks": true
+  },
+  "object_pooling": [
+    "animals",
+    "crops",
+    "particles",
+    "floating_text",
+    "market_items"
+  ],
+  "save": {
+    "atomic_write": true,
+    "backup_slots": 2,
+    "corrupt_save_recovery": true
+  },
+  "logging": {
+    "levels": [
+      "error",
+      "warning",
+      "info",
+      "debug"
+    ],
+    "production_debug_disabled": true
+  },
+  "crash_reporting": {
+    "enabled": true,
+    "pii_minimization": true
+  },
+  "network": {
+    "request_timeout_seconds": 15,
+    "retry_policy": "bounded_exponential",
+    "offline_first": true
+  },
+  "security": {
+    "input_validation": true,
+    "rate_limits_ready": true,
+    "tamper_detection_ready": true
+  },
+  "memory": {
+    "asset_unload": true,
+    "large_texture_guard": true
+  }
+}

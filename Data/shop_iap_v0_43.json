@@ -1,0 +1,21 @@
+{
+  "version": "0.43",
+  "categories": [
+    "diamonds",
+    "super_machines",
+    "decorations",
+    "limited_events"
+  ],
+  "rules": {
+    "real_money_prices_store_controlled": true,
+    "diamond_balance_server_authoritative": true,
+    "purchase_history_logged": true
+  },
+  "free_diamonds": [
+    "quests",
+    "daily_rewards",
+    "achievements",
+    "events",
+    "special_orders"
+  ]
+}

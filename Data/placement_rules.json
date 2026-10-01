@@ -1,0 +1,62 @@
+{
+  "fixed": [
+    {
+      "id": "water_pump",
+      "name_tr": "Su Pompası",
+      "name_en": "Water Pump",
+      "reason": "Dere/su kaynağına bağlı altyapı; taşınamaz."
+    },
+    {
+      "id": "mill",
+      "name_tr": "Değirmen",
+      "name_en": "Mill",
+      "reason": "Çiftliğin sabit ana üretim yapısı; taşınamaz."
+    }
+  ],
+  "movable": [
+    "house",
+    "barn",
+    "fields",
+    "animals",
+    "animal_areas",
+    "oven",
+    "cheese_machine",
+    "hive",
+    "wind_turbine",
+    "roads",
+    "fences",
+    "trees",
+    "rocks",
+    "flowers",
+    "decorations",
+    "pet_areas",
+    "storage",
+    "other_production_machines"
+  ],
+  "design_rule": "Arazi genişlediğinde mevcut yerleşim korunur; oyuncu taşınabilir nesneleri yeniden düzenleyebilir.",
+  "fixed_objects": [
+    "water_pump",
+    "mill",
+    "market",
+    "warehouse"
+  ],
+  "movable_objects": [
+    "house",
+    "barn",
+    "fields",
+    "animal_areas",
+    "oven",
+    "cheese_machine",
+    "hives",
+    "wind_turbine",
+    "roads",
+    "fences",
+    "trees",
+    "rocks",
+    "flowers",
+    "pet_areas",
+    "storage",
+    "decorations",
+    "production_machines"
+  ]
+}

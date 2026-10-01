@@ -1,0 +1,106 @@
+{
+  "version": "0.41",
+  "production_pipeline": [
+    "raw_material",
+    "ingredient",
+    "processed",
+    "artisan",
+    "final_product",
+    "premium_product"
+  ],
+  "queue_rules": {
+    "cancel_returns_unused_inputs": true,
+    "completed_products_move_to_storage": true,
+    "storage_full_pauses_completion": true,
+    "priority": [
+      "urgent",
+      "normal",
+      "low"
+    ]
+  },
+  "factory_examples": [
+    {
+      "id": "mill",
+      "inputs": [
+        "wheat",
+        "corn",
+        "rye"
+      ],
+      "outputs": [
+        "flour",
+        "cornmeal",
+        "rye_flour"
+      ]
+    },
+    {
+      "id": "oven",
+      "inputs": [
+        "flour"
+      ],
+      "outputs": [
+        "bread",
+        "pide",
+        "lahmacun",
+        "pizza"
+      ]
+    },
+    {
+      "id": "cheese_machine",
+      "inputs": [
+        "milk"
+      ],
+      "outputs": [
+        "cheese"
+      ]
+    },
+    {
+      "id": "juice_machine",
+      "inputs": [
+        "apple",
+        "orange",
+        "pineapple"
+      ],
+      "outputs": [
+        "juice"
+      ]
+    },
+    {
+      "id": "sawmill",
+      "inputs": [
+        "log"
+      ],
+      "outputs": [
+        "plank",
+        "premium_wood"
+      ]
+    },
+    {
+      "id": "smelter",
+      "inputs": [
+        "iron_ore",
+        "copper_ore",
+        "gold_ore"
+      ],
+      "outputs": [
+        "metal_ingot"
+      ]
+    },
+    {
+      "id": "fish_processing",
+      "inputs": [
+        "raw_fish"
+      ],
+      "outputs": [
+        "fillet",
+        "smoked_fish",
+        "canned_fish"
+      ]
+    }
+  ],
+  "super_machine_rules": {
+    "premium_currency": "diamond",
+    "faster_than_normal": true,
+    "higher_capacity": true,
+    "distinct_visual_variant": true
+  }
+}

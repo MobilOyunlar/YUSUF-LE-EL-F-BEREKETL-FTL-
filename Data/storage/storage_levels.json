@@ -1,0 +1,16 @@
+{
+  "building":"storage",
+  "fixed":true,
+  "levels":[
+    {"level":1,"capacity":100,"coins":0,"materials":{}},
+    {"level":2,"capacity":150,"coins":1200,"materials":{"wood":20,"stone":10}},
+    {"level":3,"capacity":225,"coins":2500,"materials":{"wood":35,"stone":20,"iron":5}},
+    {"level":4,"capacity":325,"coins":5000,"materials":{"wood":50,"stone":35,"iron":10}},
+    {"level":5,"capacity":450,"coins":9000,"materials":{"wood":70,"stone":50,"iron":20}},
+    {"level":6,"capacity":600,"coins":15000,"materials":{"wood":90,"stone":70,"iron":30}},
+    {"level":7,"capacity":800,"coins":24000,"materials":{"wood":120,"stone":90,"iron":45}},
+    {"level":8,"capacity":1050,"coins":38000,"materials":{"wood":150,"stone":120,"iron":60}},
+    {"level":9,"capacity":1350,"coins":58000,"materials":{"wood":190,"stone":150,"iron":80}},
+    {"level":10,"capacity":1750,"coins":85000,"materials":{"wood":240,"stone":190,"iron":100}}
+  ]
+}

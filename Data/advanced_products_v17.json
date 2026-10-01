@@ -1,0 +1,64 @@
+{
+  "smoked_trout": {
+    "input": "trout_fillet",
+    "machine": "smokehouse",
+    "time": 180,
+    "quality_inherited": true
+  },
+  "smoked_anchovy": {
+    "input": "anchovy_cleaned",
+    "machine": "smokehouse",
+    "time": 120,
+    "quality_inherited": true
+  },
+  "smoked_mackerel": {
+    "input": "mackerel_fillet",
+    "machine": "smokehouse",
+    "time": 150,
+    "quality_inherited": true
+  },
+  "smoked_beef": {
+    "input": "beef_cuts",
+    "machine": "smokehouse",
+    "time": 240,
+    "quality_inherited": true
+  },
+  "smoked_lamb": {
+    "input": "lamb_cubes",
+    "machine": "smokehouse",
+    "time": 210,
+    "quality_inherited": true
+  },
+  "beef_sausage": {
+    "inputs": [
+      "ground_beef",
+      "spices"
+    ],
+    "machine": "sausage_machine",
+    "time": 180
+  },
+  "lamb_sausage": {
+    "inputs": [
+      "ground_lamb",
+      "spices"
+    ],
+    "machine": "sausage_machine",
+    "time": 180
+  },
+  "chicken_burger": {
+    "inputs": [
+      "chicken_breast",
+      "bun"
+    ],
+    "machine": "burger_machine",
+    "time": 120
+  },
+  "fruit_smoothie": {
+    "inputs": [
+      "fruit_mix",
+      "milk_or_yogurt"
+    ],
+    "machine": "smoothie_machine",
+    "time": 90
+  }
+}

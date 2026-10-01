@@ -1,0 +1,30 @@
+{
+  "farm_title": {
+    "tr": "Yusuf ile Elif: Bereketli Çiftliği",
+    "en": "Yusuf & Elif: Bountiful Farm"
+  },
+  "harvest": {
+    "tr": "Hasat",
+    "en": "Harvest"
+  },
+  "plant": {
+    "tr": "Ekim",
+    "en": "Plant"
+  },
+  "move": {
+    "tr": "Taşı",
+    "en": "Move"
+  },
+  "rotate": {
+    "tr": "Döndür",
+    "en": "Rotate"
+  },
+  "store": {
+    "tr": "Depoya Kaldır",
+    "en": "Store"
+  },
+  "place": {
+    "tr": "Yerleştir",
+    "en": "Place"
+  }
+}

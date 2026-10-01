@@ -1,0 +1,60 @@
+{
+  "version": "0.4.0",
+  "asset_count": 24,
+  "assets": [
+    "Assets/Environment/rock.glb",
+    "Assets/Environment/tree.glb",
+    "Assets/Environment/fence.glb",
+    "Assets/Environment/crop_wheat.glb",
+    "Assets/Environment/river.glb",
+    "Assets/Infrastructure/water_pump.glb",
+    "Assets/Infrastructure/wind_turbine.glb",
+    "Assets/Animals/Llama.glb",
+    "Assets/Animals/Rabbit.glb",
+    "Assets/Animals/Sheep.glb",
+    "Assets/Animals/Chicken.glb",
+    "Assets/Animals/Horse.glb",
+    "Assets/Animals/Dog.glb",
+    "Assets/Animals/Goat.glb",
+    "Assets/Animals/Cat.glb",
+    "Assets/Animals/Cow.glb",
+    "Assets/Characters/Elif.glb",
+    "Assets/Characters/Yusuf.glb",
+    "Assets/Buildings/hive.glb",
+    "Assets/Buildings/oven.glb",
+    "Assets/Buildings/barn.glb",
+    "Assets/Buildings/cheese_machine.glb",
+    "Assets/Buildings/house.glb",
+    "Assets/Buildings/mill.glb"
+  ],
+  "fixed_infrastructure": [
+    "water_pump",
+    "mill"
+  ],
+  "locales": [
+    "tr",
+    "en"
+  ],
+  "currencies": [
+    "coins",
+    "diamonds"
+  ],
+  "google_play_product_ids": [
+    "diamond_500",
+    "diamond_1500",
+    "diamond_2500",
+    "diamond_4000",
+    "diamond_8000",
+    "diamond_16000",
+    "diamond_20000",
+    "diamond_30000",
+    "diamond_50000"
+  ],
+  "farm_core": [
+    "FarmMain.tscn",
+    "crop_system.gd",
+    "placement_system.gd",
+    "farm_main.gd"
+  ],
+  "current_internal_version": "0.9"
+}

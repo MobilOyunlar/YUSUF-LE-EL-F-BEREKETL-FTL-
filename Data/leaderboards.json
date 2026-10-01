@@ -1,0 +1,33 @@
+{
+  "system": "competitive_leaderboards",
+  "enabled": true,
+  "periods": [
+    {"id":"weekly","reset_days":7,"reward_tier_count":100},
+    {"id":"monthly","reset_days":30,"reward_tier_count":100},
+    {"id":"yearly","reset_days":365,"reward_tier_count":100}
+  ],
+  "categories": [
+    {"id":"farm_value","metric":"total_farm_value"},
+    {"id":"harvest","metric":"harvested_items"},
+    {"id":"production","metric":"completed_productions"},
+    {"id":"orders","metric":"completed_orders"},
+    {"id":"animal_care","metric":"animal_care_score"},
+    {"id":"xp","metric":"earned_xp"}
+  ],
+  "anti_cheat": {
+    "server_authoritative": true,
+    "validate_score_events": true,
+    "reject_negative_deltas": true,
+    "rate_limit_score_events": true
+  },
+  "privacy": {
+    "display_name_only": true,
+    "hide_exact_personal_data": true,
+    "allow_private_profile": true
+  },
+  "rewards": {
+    "type": ["coins","diamonds","xp","seasonal_badges","cosmetics"],
+    "ranked": true,
+    "non_p2w": true
+  }
+}

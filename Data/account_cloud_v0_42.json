@@ -1,0 +1,36 @@
+{
+  "version": "0.42",
+  "identity": {
+    "provider_ready": [
+      "google_play_games",
+      "apple_game_center"
+    ],
+    "guest_mode": true,
+    "upgrade_guest_to_account": true
+  },
+  "cloud_save": {
+    "enabled": true,
+    "slots": 3,
+    "conflict_policy": "newest_valid_version",
+    "server_validation": true
+  },
+  "sync": {
+    "farm_layout": true,
+    "inventory": true,
+    "progression": true,
+    "home_decor": true,
+    "clothing": true,
+    "animals": true,
+    "production_queues": true
+  },
+  "security": {
+    "server_authoritative_currency": true,
+    "server_authoritative_inventory": true,
+    "replay_protection": true
+  },
+  "offline": {
+    "supported": true,
+    "local_queue": true,
+    "sync_on_reconnect": true
+  }
+}

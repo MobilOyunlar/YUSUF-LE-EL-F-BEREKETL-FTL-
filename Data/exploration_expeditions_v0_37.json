@@ -1,0 +1,10 @@
+{
+  "expeditions":[
+    {"id":"forest_gather","region":"forest","duration_minutes":15,"energy":10,"rewards":["wood","wild_berry","mushroom"]},
+    {"id":"mountain_ore","region":"mountain","duration_minutes":30,"energy":15,"rewards":["stone","iron_ore","copper_ore","quartz"]},
+    {"id":"coast_fishing","region":"coast","duration_minutes":20,"energy":12,"rewards":["fish","seafood","seaweed"]},
+    {"id":"island_harvest","region":"island","duration_minutes":45,"energy":20,"rewards":["tropical_fruit","coconut","rare_fish"]},
+    {"id":"deep_mining","region":"deep_mine","duration_minutes":60,"energy":25,"rewards":["gold_ore","silver_ore","rare_gem"]},
+    {"id":"tropical_trade","region":"tropical","duration_minutes":90,"energy":30,"rewards":["tropical_fruit","trade_goods"]}
+  ]
+}

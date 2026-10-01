@@ -1,0 +1,8 @@
+{
+  "version": "0.29",
+  "task_templates": [
+    {"id":"harvest_together","metric":"harvest_count","target":10000,"reward":{"coins":15000,"xp":300,"event_tokens":100}},
+    {"id":"produce_together","metric":"production_count","target":5000,"reward":{"coins":20000,"xp":400,"event_tokens":150}},
+    {"id":"help_neighbors","metric":"help_actions","target":1000,"reward":{"coins":10000,"xp":250,"diamonds":20}}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "fish": {
+    "anchovy": ["raw_anchovy","cleaned_anchovy","anchovy_fillet","smoked_anchovy","canned_anchovy"],
+    "trout": ["raw_trout","cleaned_trout","trout_fillet","smoked_trout","canned_trout"],
+    "salmon": ["raw_salmon","cleaned_salmon","salmon_fillet","smoked_salmon","canned_salmon"],
+    "mackerel": ["raw_mackerel","cleaned_mackerel","mackerel_fillet","smoked_mackerel","canned_mackerel"]
+  },
+  "meat": {
+    "beef": ["beef","ground_beef","cubed_beef","steak","smoked_beef","sausage","salami"],
+    "lamb": ["lamb","ground_lamb","cubed_lamb","smoked_lamb","meatball"],
+    "goat_meat": ["goat_meat","ground_goat","cubed_goat","smoked_goat"],
+    "chicken_meat": ["chicken_meat","breast","thigh","wing","smoked_chicken","chicken_burger"]
+  }
+}

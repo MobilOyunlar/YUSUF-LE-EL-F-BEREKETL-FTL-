@@ -1,0 +1,200 @@
+{
+  "anchovy": {
+    "name": "Anchovy",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "sardine": {
+    "name": "Sardine",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "horse_mackerel": {
+    "name": "Horse Mackerel",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "mackerel": {
+    "name": "Mackerel",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "bonito": {
+    "name": "Bonito",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "bluefish": {
+    "name": "Bluefish",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "whiting": {
+    "name": "Whiting",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "mullet": {
+    "name": "Mullet",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "trout": {
+    "name": "Trout",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "salmon": {
+    "name": "Salmon",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "carp": {
+    "name": "Carp",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "pike": {
+    "name": "Pike",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "seabass": {
+    "name": "Seabass",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "seabream": {
+    "name": "Seabream",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "tuna": {
+    "name": "Tuna",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "swordfish": {
+    "name": "Swordfish",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "eel": {
+    "name": "Eel",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  },
+  "sturgeon": {
+    "name": "Sturgeon",
+    "states": [
+      "raw",
+      "cleaned",
+      "fillet",
+      "smoked",
+      "canned",
+      "cooked"
+    ]
+  }
+}

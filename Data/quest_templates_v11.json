@@ -1,0 +1,12 @@
+{
+  "daily": [
+    {"id":"sell_market_items","target":10,"reward":{"coins":500,"xp":50}},
+    {"id":"complete_orders","target":3,"reward":{"coins":750,"xp":75}},
+    {"id":"harvest_fruit","target":8,"reward":{"coins":400,"xp":40}},
+    {"id":"produce_food","target":5,"reward":{"coins":900,"xp":90}}
+  ],
+  "character_tasks": [
+    {"giver":"Yusuf","id":"market_wheat","target":20,"reward":{"coins":800,"xp":100}},
+    {"giver":"Elif","id":"market_juice","target":5,"reward":{"coins":1200,"gems":20,"xp":140}}
+  ]
+}

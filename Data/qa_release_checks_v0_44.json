@@ -1,0 +1,31 @@
+{
+  "version": "0.44",
+  "smoke_tests": [
+    "new_game",
+    "save_load",
+    "farm_expand",
+    "plant_harvest",
+    "animal_production",
+    "machine_queue",
+    "cloud_sync",
+    "purchase_restore"
+  ],
+  "integrity_checks": [
+    "negative_currency",
+    "negative_inventory",
+    "duplicate_purchase",
+    "invalid_recipe",
+    "invalid_item_id"
+  ],
+  "offline_tests": [
+    "play_without_network",
+    "reconnect_sync",
+    "interrupted_save"
+  ],
+  "device_matrix": "to_be_populated_with_real_devices",
+  "release_gate": {
+    "zero_blocking_crashes": true,
+    "save_integrity_required": true,
+    "purchase_integrity_required": true
+  }
+}

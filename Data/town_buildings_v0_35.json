@@ -1,0 +1,19 @@
+{
+  "buildings":[
+    {"id":"village_market","stage":"village","fixed":true,"capacity":4},
+    {"id":"well","stage":"village","fixed":true},
+    {"id":"small_house","stage":"village","fixed":false,"population":10},
+    {"id":"bakery","stage":"town","fixed":false,"jobs":8},
+    {"id":"clinic","stage":"town","fixed":false,"jobs":6},
+    {"id":"school","stage":"town","fixed":false,"jobs":10},
+    {"id":"workshop","stage":"town","fixed":false,"jobs":12},
+    {"id":"bank","stage":"advanced_town","fixed":false,"jobs":12},
+    {"id":"restaurant","stage":"advanced_town","fixed":false,"jobs":18},
+    {"id":"warehouse","stage":"advanced_town","fixed":true,"capacity":500},
+    {"id":"transport_hub","stage":"advanced_town","fixed":true},
+    {"id":"food_market","stage":"agricultural_region","fixed":true,"capacity":32},
+    {"id":"processing_center","stage":"agricultural_region","fixed":false,"jobs":40},
+    {"id":"rail_hub","stage":"agricultural_region","fixed":true},
+    {"id":"export_center","stage":"agricultural_region","fixed":true}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "public_fields": ["display_name", "level", "farm_level", "season_badges", "selected_title"],
+  "private_fields": ["account_id", "email", "payment_history"],
+  "leaderboard_visibility": "opt_in",
+  "display_name_rules": {"min_length": 3, "max_length": 20, "allow_unicode": true}
+}

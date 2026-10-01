@@ -1,0 +1,20 @@
+{
+  "version":"0.13",
+  "recipes":[
+    {"id":"smoked_trout","machine":"smokehouse","inputs":{"trout":1},"outputs":{"smoked_trout":1},"duration":80},
+    {"id":"smoked_salmon","machine":"smokehouse","inputs":{"salmon_fillet":1},"outputs":{"smoked_salmon":1},"duration":100},
+    {"id":"smoked_anchovy","machine":"smokehouse","inputs":{"anchovy_cleaned":2},"outputs":{"smoked_anchovy":2},"duration":45},
+    {"id":"smoked_mackerel","machine":"smokehouse","inputs":{"mackerel_fillet":1},"outputs":{"smoked_mackerel":1},"duration":70},
+    {"id":"smoked_beef","machine":"smokehouse","inputs":{"beef":2},"outputs":{"smoked_beef":1},"duration":110},
+    {"id":"smoked_chicken","machine":"smokehouse","inputs":{"chicken_breast":1},"outputs":{"smoked_chicken":1},"duration":80},
+    {"id":"beef_sausage","machine":"butchery","inputs":{"ground_beef":2},"outputs":{"beef_sausage":1},"duration":90},
+    {"id":"beef_salami","machine":"butchery","inputs":{"ground_beef":2},"outputs":{"beef_salami":1},"duration":120},
+    {"id":"meatball","machine":"butchery","inputs":{"ground_beef":1,"egg":1,"flour":1},"outputs":{"meatball":4},"duration":70},
+    {"id":"burger_patty","machine":"butchery","inputs":{"ground_beef":1},"outputs":{"burger_patty":2},"duration":50},
+    {"id":"hamburger","machine":"hamburger_machine","inputs":{"burger_patty":1,"bread":1,"tomato":1,"cheese":1},"outputs":{"hamburger":1},"duration":90},
+    {"id":"fish_can","machine":"canner","inputs":{"fish_fillet":2},"outputs":{"canned_fish":2},"duration":100},
+    {"id":"dried_fish","machine":"dryer","inputs":{"cleaned_fish":2},"outputs":{"dried_fish":1},"duration":90},
+    {"id":"salted_fish","machine":"salting_station","inputs":{"cleaned_fish":2,"salt":1},"outputs":{"salted_fish":2},"duration":60},
+    {"id":"smoked_seafood","machine":"smokehouse","inputs":{"seafood_meat":2},"outputs":{"smoked_seafood":1},"duration":100}
+  ]
+}

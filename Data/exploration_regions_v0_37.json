@@ -1,0 +1,13 @@
+{
+  "version":"0.37",
+  "regions":[
+    {"id":"forest","name":"Orman Bölgesi","unlock_level":12,"entry_cost_coins":5000,"resources":["wood","mushroom","wild_berry","resin"],"activities":["logging","foraging","wildlife"]},
+    {"id":"mountain","name":"Dağ Bölgesi","unlock_level":18,"entry_cost_coins":12000,"resources":["stone","iron_ore","copper_ore","quartz","gem_ore"],"activities":["mining","quarrying","exploration"]},
+    {"id":"coast","name":"Sahil Bölgesi","unlock_level":24,"entry_cost_coins":25000,"resources":["anchovy","sardine","mackerel","mussel","shrimp","seaweed"],"activities":["fishing","seafood","boat_delivery"]},
+    {"id":"island","name":"Ada Bölgesi","unlock_level":32,"unlock_requirement":"coast_transport","resources":["tropical_fruit","rare_fish","coconut","mango","pineapple"],"activities":["fishing","orchard","rare_resources"]},
+    {"id":"deep_mine","name":"Derin Maden","unlock_level":40,"unlock_requirement":"advanced_mining_equipment","resources":["gold_ore","silver_ore","rare_gem","quartz"],"activities":["deep_mining","rare_ore"]},
+    {"id":"tropical","name":"Tropikal Bölge","unlock_level":48,"unlock_requirement":"island_trade_route","resources":["banana","pineapple","mango","papaya","avocado","coconut"],"activities":["tropical_farming","orchard","trade"]}
+  ],
+  "exploration_rules":{"daily_energy":100,"energy_cost_per_trip":10,"rare_resource_roll_server_authoritative":true,"return_to_farm":true},
+  "save_fields":["unlocked_regions","exploration_energy","region_progress","discovered_resources","active_expedition"]
+}

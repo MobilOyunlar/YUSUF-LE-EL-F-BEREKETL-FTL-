@@ -1,0 +1,144 @@
+{
+  "currency_rules": {
+    "soft_currency": "coin",
+    "premium_currency": "diamond",
+    "note": "Illustrative balancing values for development; final prices should be playtested."
+  },
+  "decorations": [
+    {
+      "id": "flower_bed_small",
+      "tr": "Küçük Çiçeklik",
+      "en": "Small Flower Bed",
+      "coins": 250,
+      "diamonds": 5
+    },
+    {
+      "id": "wood_fence_10",
+      "tr": "Ahşap Çit (10 parça)",
+      "en": "Wood Fence (10 pieces)",
+      "coins": 500,
+      "diamonds": 10
+    },
+    {
+      "id": "stone_path_10",
+      "tr": "Taş Yol (10 parça)",
+      "en": "Stone Path (10 pieces)",
+      "coins": 800,
+      "diamonds": 15
+    },
+    {
+      "id": "bench",
+      "tr": "Bank",
+      "en": "Bench",
+      "coins": 1200,
+      "diamonds": 25
+    },
+    {
+      "id": "well",
+      "tr": "Kuyu",
+      "en": "Well",
+      "coins": 2500,
+      "diamonds": 50
+    },
+    {
+      "id": "small_fountain",
+      "tr": "Küçük Çeşme",
+      "en": "Small Fountain",
+      "coins": 5000,
+      "diamonds": 100
+    },
+    {
+      "id": "garden_arch",
+      "tr": "Bahçe Kemeri",
+      "en": "Garden Arch",
+      "coins": 3500,
+      "diamonds": 75
+    },
+    {
+      "id": "lantern_set",
+      "tr": "Fener Seti",
+      "en": "Lantern Set",
+      "coins": 2200,
+      "diamonds": 40
+    },
+    {
+      "id": "windmill_decoration",
+      "tr": "Mini Dekor Değirmen",
+      "en": "Mini Decorative Windmill",
+      "coins": 7500,
+      "diamonds": 150
+    },
+    {
+      "id": "farm_sign",
+      "tr": "Çiftlik Tabelası",
+      "en": "Farm Sign",
+      "coins": 3000,
+      "diamonds": 60
+    },
+    {
+      "id": "pond",
+      "tr": "Süs Göleti",
+      "en": "Decorative Pond",
+      "coins": 12000,
+      "diamonds": 250
+    },
+    {
+      "id": "flower_house",
+      "tr": "Çiçekli Küçük Ev",
+      "en": "Flower Cottage",
+      "coins": 25000,
+      "diamonds": 500
+    }
+  ],
+  "super_machines": [
+    {
+      "id": "super_cheese",
+      "tr": "Süper Peynir Makinesi",
+      "en": "Super Cheese Machine",
+      "diamonds": 300
+    },
+    {
+      "id": "super_mill",
+      "tr": "Süper Değirmen",
+      "en": "Super Mill",
+      "diamonds": 400,
+      "placement": "fixed"
+    },
+    {
+      "id": "super_oven",
+      "tr": "Süper Fırın",
+      "en": "Super Oven",
+      "diamonds": 300
+    },
+    {
+      "id": "super_black_hive",
+      "tr": "Süper Karakovan",
+      "en": "Super Black Hive",
+      "diamonds": 300
+    },
+    {
+      "id": "super_lavender_honey",
+      "tr": "Süper Lavanta Balı Sistemi",
+      "en": "Super Lavender Honey Setup",
+      "diamonds": 400
+    },
+    {
+      "id": "super_sausage",
+      "tr": "Süper Sucuk Makinesi",
+      "en": "Super Sausage Machine",
+      "diamonds": 350
+    },
+    {
+      "id": "super_salami",
+      "tr": "Süper Salam Makinesi",
+      "en": "Super Salami Machine",
+      "diamonds": 350
+    },
+    {
+      "id": "super_meatball",
+      "tr": "Süper Köfte Makinesi",
+      "en": "Super Meatball Machine",
+      "diamonds": 350
+    }
+  ]
+}

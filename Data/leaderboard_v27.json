@@ -1,0 +1,7 @@
+{
+  "version":"0.27",
+  "periods":["weekly","monthly","yearly"],
+  "categories":["farm_value","harvest","production","orders","animal_care","xp"],
+  "season_reset": {"server_time":true,"preserve_history":true},
+  "privacy": {"opt_out":true,"show_username_only":true}
+}

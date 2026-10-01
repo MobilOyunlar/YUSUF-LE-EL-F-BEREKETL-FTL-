@@ -1,0 +1,58 @@
+{
+  "version": "0.9",
+  "quest_types": [
+    "main",
+    "side",
+    "daily",
+    "special",
+    "market",
+    "warehouse"
+  ],
+  "examples": [
+    {
+      "id": "market_01",
+      "giver": "Yusuf",
+      "type": "market",
+      "objective": "sell_item",
+      "item": "wheat",
+      "amount": 20,
+      "reward_coins": 300
+    },
+    {
+      "id": "market_02",
+      "giver": "Elif",
+      "type": "market",
+      "objective": "sell_item",
+      "item": "apple_juice",
+      "amount": 5,
+      "reward_coins": 900,
+      "reward_diamonds": 10
+    },
+    {
+      "id": "market_03",
+      "giver": "Yusuf",
+      "type": "market",
+      "objective": "sell_item",
+      "item": "pizza",
+      "amount": 3,
+      "reward_coins": 1500,
+      "reward_diamonds": 20
+    },
+    {
+      "id": "warehouse_01",
+      "giver": "Elif",
+      "type": "warehouse",
+      "objective": "upgrade_warehouse",
+      "target_level": 2,
+      "reward_coins": 750
+    },
+    {
+      "id": "market_04",
+      "giver": "Yusuf",
+      "type": "market",
+      "objective": "upgrade_market",
+      "target_level": 2,
+      "reward_coins": 1000
+    }
+  ]
+}

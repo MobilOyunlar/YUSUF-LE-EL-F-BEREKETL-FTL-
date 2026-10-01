@@ -1,0 +1,144 @@
+{
+  "cattle_beef": {
+    "animal": "cow",
+    "stages": [
+      "calf",
+      "young",
+      "adult"
+    ],
+    "outputs": [
+      "milk",
+      "manure",
+      "beef"
+    ],
+    "meat_cuts": [
+      "ground_beef",
+      "beef_cubes",
+      "steak"
+    ]
+  },
+  "sheep_meat": {
+    "animal": "sheep",
+    "stages": [
+      "lamb",
+      "young",
+      "adult"
+    ],
+    "outputs": [
+      "wool",
+      "milk",
+      "manure",
+      "lamb_meat"
+    ],
+    "meat_cuts": [
+      "ground_lamb",
+      "lamb_cubes",
+      "lamb_chop"
+    ]
+  },
+  "goat_meat": {
+    "animal": "goat",
+    "stages": [
+      "kid",
+      "young",
+      "adult"
+    ],
+    "outputs": [
+      "milk",
+      "fiber",
+      "manure",
+      "goat_meat"
+    ],
+    "meat_cuts": [
+      "ground_goat",
+      "goat_cubes"
+    ]
+  },
+  "chicken_meat": {
+    "animal": "chicken",
+    "stages": [
+      "chick",
+      "young",
+      "adult"
+    ],
+    "outputs": [
+      "egg",
+      "feather",
+      "manure",
+      "chicken_meat"
+    ],
+    "meat_cuts": [
+      "breast",
+      "thigh",
+      "wing"
+    ]
+  },
+  "turkey_meat": {
+    "animal": "turkey",
+    "stages": [
+      "poult",
+      "young",
+      "adult"
+    ],
+    "outputs": [
+      "egg",
+      "feather",
+      "manure",
+      "turkey_meat"
+    ],
+    "meat_cuts": [
+      "breast",
+      "ground_turkey"
+    ]
+  },
+  "duck_meat": {
+    "animal": "duck",
+    "stages": [
+      "duckling",
+      "young",
+      "adult"
+    ],
+    "outputs": [
+      "egg",
+      "feather",
+      "manure",
+      "duck_meat"
+    ],
+    "meat_cuts": [
+      "duck_breast"
+    ]
+  },
+  "goose_meat": {
+    "animal": "goose",
+    "stages": [
+      "gosling",
+      "young",
+      "adult"
+    ],
+    "outputs": [
+      "egg",
+      "feather",
+      "manure",
+      "goose_meat"
+    ],
+    "meat_cuts": [
+      "goose_meat"
+    ]
+  },
+  "rabbit_meat": {
+    "animal": "rabbit",
+    "stages": [
+      "kit",
+      "young",
+      "adult"
+    ],
+    "outputs": [
+      "fur",
+      "manure",
+      "rabbit_meat"
+    ],
+    "meat_cuts": [
+      "rabbit_meat"
+    ]
+  }
+}

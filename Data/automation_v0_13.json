@@ -1,0 +1,15 @@
+{
+  "version":"0.13",
+  "automation_center_levels":[
+    {"level":1,"feature":"auto_machine_loading"},
+    {"level":2,"feature":"auto_animal_feeding"},
+    {"level":3,"feature":"auto_product_collection"},
+    {"level":4,"feature":"auto_sowing"},
+    {"level":5,"feature":"auto_harvest"},
+    {"level":6,"feature":"smart_production_queue"},
+    {"level":7,"feature":"cold_storage_management"},
+    {"level":8,"feature":"delivery_route_automation"}
+  ],
+  "energy_costs":{"auto_harvest":10,"auto_sowing":8,"auto_irrigation":5,"auto_animal_feeding":3,"auto_production":10,"cold_storage":4},
+  "fuel_costs":{"tractor_plow_l":2,"tractor_sow_l":1,"tractor_harvest_l":2,"tractor_water_l":1}
+}

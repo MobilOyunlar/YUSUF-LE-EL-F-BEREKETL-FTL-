@@ -1,0 +1,10 @@
+{
+  "system": "order_board",
+  "slots": 6,
+  "refresh_minutes": 15,
+  "order_types": ["local_customer", "restaurant", "village", "event"],
+  "rewards": ["coins", "xp", "materials", "gems_optional"],
+  "help_enabled": true,
+  "discard_enabled": true,
+  "notes": "Original order system inspired by common farming-game delivery loops; no copied content/assets."
+}

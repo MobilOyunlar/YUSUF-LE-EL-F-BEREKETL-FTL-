@@ -1,0 +1,45 @@
+{
+  "version": "0.45",
+  "pre_release": [
+    "validate_data_contracts",
+    "verify_save_migration",
+    "verify_offline_save",
+    "verify_cloud_sync",
+    "verify_purchase_flow",
+    "verify_restore_purchase",
+    "verify_inventory_economy_integrity",
+    "verify_spoilage_and_compost",
+    "verify_home_decoration_save",
+    "verify_automation_energy",
+    "verify_market_and_orders",
+    "verify_expansion_rules"
+  ],
+  "device_tests": {
+    "android": [
+      "install",
+      "cold_start",
+      "save_load",
+      "network_offline",
+      "purchase_test",
+      "long_session",
+      "background_resume"
+    ],
+    "ios": [
+      "install",
+      "cold_start",
+      "save_load",
+      "network_offline",
+      "purchase_test",
+      "long_session",
+      "background_resume"
+    ]
+  },
+  "release_blockers": [
+    "data_loss",
+    "duplicate_currency_grant",
+    "blocking_crash",
+    "broken_save_migration",
+    "unrecoverable_purchase_state"
+  ],
+  "status": "release_candidate_requires_real_device_and_store/backend_configuration"
+}

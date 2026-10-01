@@ -1,0 +1,57 @@
+{
+  "version": "0.45",
+  "release_candidate": true,
+  "integrated_systems": [
+    "farm_and_land_expansion",
+    "crops_and_spoilage",
+    "animals_and_breeds",
+    "production_and_super_machines",
+    "storage_market_orders",
+    "tractor_and_automation",
+    "fishing_mining_forest",
+    "village_town_region",
+    "transport_and_exploration",
+    "seasons_weather_environment",
+    "homes_clothing_decoration",
+    "account_cloud_social",
+    "google_play_billing",
+    "mobile_performance_security"
+  ],
+  "data_contract_checks": {
+    "duplicate_ids": "error",
+    "missing_required_fields": "error",
+    "invalid_recipe_inputs": "error",
+    "invalid_currency_reference": "error",
+    "invalid_unlock_requirement": "error"
+  },
+  "save_migration": {
+    "from_versions": [
+      "0.38",
+      "0.39",
+      "0.40",
+      "0.41",
+      "0.42",
+      "0.43",
+      "0.44"
+    ],
+    "backup_before_migration": true,
+    "rollback_on_failure": true
+  },
+  "release_channels": [
+    "internal_test",
+    "closed_test",
+    "open_test",
+    "production"
+  ],
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "known_manual_steps": [
+    "real_device_build",
+    "Google Play Console configuration",
+    "Apple App Store Connect configuration",
+    "production backend credentials",
+    "store signing credentials"
+  ]
+}
