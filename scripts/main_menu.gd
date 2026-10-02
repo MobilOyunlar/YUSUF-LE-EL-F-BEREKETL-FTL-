@@ -245,8 +245,9 @@ func _quality_changed(index: int) -> void:
 func _show_account() -> void:
     var box := _panel(T("account"))
     box.add_child(_label(T("account_note"), 18))
-    box.add_child(_button("▶  " + T("google"), func(): _show_notice(T("coming"))))
-    box.add_child(_button("  " + T("apple"), func(): _show_notice(T("coming"))))
+    box.add_child(_label("Google / Play Games ve Apple hesap bağlantısı Android/iOS mağaza aşamasında etkinleştirilecektir.", 16))
+    box.add_child(_button("▶  " + T("google"), func(): _show_notice("Google / Play Games hesap bağlantısı henüz etkin değil.")))
+    box.add_child(_button("  " + T("apple"), func(): _show_notice("Apple hesap bağlantısı henüz etkin değil.")))
     _back_button(box)
 
 func _show_notice(message: String) -> void:
