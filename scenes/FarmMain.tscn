@@ -1,27 +1,174 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=32 format=3]
 
-[ext_resource path="res://scripts/farm_core/farm_main.gd" type="Script" id=1]
+[ext_resource type="Script" path="res://scripts/farm_core/farm_main.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://Assets/Characters/Yusuf.glb" id="2_yusuf"]
+[ext_resource type="PackedScene" path="res://Assets/Characters/Elif.glb" id="3_elif"]
+[ext_resource type="PackedScene" path="res://Assets/Buildings/house.glb" id="4_house"]
+[ext_resource type="PackedScene" path="res://Assets/Buildings/barn.glb" id="5_barn"]
+[ext_resource type="PackedScene" path="res://Assets/Buildings/mill.glb" id="6_mill"]
+[ext_resource type="PackedScene" path="res://Assets/Buildings/oven.glb" id="7_oven"]
+[ext_resource type="PackedScene" path="res://Assets/Buildings/cheese_machine.glb" id="8_cheese"]
+[ext_resource type="PackedScene" path="res://Assets/Buildings/hive.glb" id="9_hive"]
+[ext_resource type="PackedScene" path="res://Assets/Animals/Cow.glb" id="10_cow"]
+[ext_resource type="PackedScene" path="res://Assets/Animals/Sheep.glb" id="11_sheep"]
+[ext_resource type="PackedScene" path="res://Assets/Animals/Goat.glb" id="12_goat"]
+[ext_resource type="PackedScene" path="res://Assets/Animals/Horse.glb" id="13_horse"]
+[ext_resource type="PackedScene" path="res://Assets/Animals/Rabbit.glb" id="14_rabbit"]
+[ext_resource type="PackedScene" path="res://Assets/Animals/Chicken.glb" id="15_chicken"]
+[ext_resource type="PackedScene" path="res://Assets/Animals/Cat.glb" id="16_cat"]
+[ext_resource type="PackedScene" path="res://Assets/Animals/Dog.glb" id="17_dog"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/tree.glb" id="18_tree"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/rock.glb" id="19_rock"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/fence.glb" id="20_fence"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/river.glb" id="21_river"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/crop_wheat.glb" id="22_wheat"]
+[ext_resource type="PackedScene" path="res://Assets/Infrastructure/water_pump.glb" id="23_pump"]
+[ext_resource type="PackedScene" path="res://Assets/Infrastructure/wind_turbine.glb" id="24_turbine"]
 
-[node name="FarmMain" type="Node2D"]
-script = ExtResource(1)
 
-[node name="FarmWorld" type="Node2D" parent="."]
+[sub_resource type="StandardMaterial3D" id="GroundMat"]
+albedo_color = Color(0.36, 0.58, 0.28, 1)
+roughness = 1.0
+
+[sub_resource type="PlaneMesh" id="GroundMesh"]
+material = SubResource("GroundMat")
+size = Vector2(30, 30)
+
+[sub_resource type="Environment" id="Environment"]
+background_mode = 1
+background_color = Color(0.48, 0.75, 0.96, 1)
+ambient_light_source = 3
+ambient_light_color = Color(0.86, 0.92, 1, 1)
+ambient_light_energy = 0.7
+
+[node name="FarmMain" type="Node3D"]
+script = ExtResource("1_script")
+
+[node name="World" type="Node3D" parent="."]
+
+[node name="Ground" type="MeshInstance3D" parent="World"]
+mesh = SubResource("GroundMesh")
+
+[node name="Environment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment")
+
+[node name="House" parent="World" instance=ExtResource("4_house")]
+position = Vector3(-5, 0, -4)
+scale = Vector3(1.8, 1.8, 1.8)
+
+[node name="Barn" parent="World" instance=ExtResource("5_barn")]
+position = Vector3(5, 0, -4)
+scale = Vector3(1.8, 1.8, 1.8)
+
+[node name="Mill" parent="World" instance=ExtResource("6_mill")]
+position = Vector3(6, 0, 4)
+scale = Vector3(1.7, 1.7, 1.7)
+
+[node name="Oven" parent="World" instance=ExtResource("7_oven")]
+position = Vector3(2.5, 0, 4.5)
+
+[node name="CheeseMachine" parent="World" instance=ExtResource("8_cheese")]
+position = Vector3(0, 0, 5)
+
+[node name="Hive" parent="World" instance=ExtResource("9_hive")]
+position = Vector3(-5, 0, 4.5)
+
+[node name="Pump" parent="World" instance=ExtResource("23_pump")]
+position = Vector3(-8, 0, 7)
+scale = Vector3(1.4, 1.4, 1.4)
+
+[node name="Turbine" parent="World" instance=ExtResource("24_turbine")]
+position = Vector3(-7, 0, 1)
+scale = Vector3(1.5, 1.5, 1.5)
+
+[node name="River" parent="World" instance=ExtResource("21_river")]
+position = Vector3(0, -0.05, 9)
+scale = Vector3(4.0, 1.0, 1.2)
+
+[node name="Yusuf" parent="World" instance=ExtResource("2_yusuf")]
+position = Vector3(-1.2, 0, -0.2)
+scale = Vector3(1.2, 1.2, 1.2)
+
+[node name="Elif" parent="World" instance=ExtResource("3_elif")]
+position = Vector3(1.0, 0, 0.2)
+scale = Vector3(1.2, 1.2, 1.2)
+
+[node name="Cow" parent="World" instance=ExtResource("10_cow")]
+position = Vector3(4.0, 0, -0.5)
+
+[node name="Sheep" parent="World" instance=ExtResource("11_sheep")]
+position = Vector3(6.0, 0, 0.8)
+
+[node name="Goat" parent="World" instance=ExtResource("12_goat")]
+position = Vector3(7.0, 0, -1.5)
+
+[node name="Horse" parent="World" instance=ExtResource("13_horse")]
+position = Vector3(3.5, 0, 2.0)
+
+[node name="Rabbit" parent="World" instance=ExtResource("14_rabbit")]
+position = Vector3(-3.0, 0, 2.0)
+scale = Vector3(0.9, 0.9, 0.9)
+
+[node name="Chicken" parent="World" instance=ExtResource("15_chicken")]
+position = Vector3(4.8, 0, 1.8)
+scale = Vector3(0.8, 0.8, 0.8)
+
+[node name="Cat" parent="World" instance=ExtResource("16_cat")]
+position = Vector3(-3.5, 0, -1.5)
+scale = Vector3(0.8, 0.8, 0.8)
+
+[node name="Dog" parent="World" instance=ExtResource("17_dog")]
+position = Vector3(-2.8, 0, -2.5)
+scale = Vector3(0.9, 0.9, 0.9)
+
+[node name="Crop01" parent="World" instance=ExtResource("22_wheat")]
+position = Vector3(-2.5, 0, 4.0)
+[node name="Crop02" parent="World" instance=ExtResource("22_wheat")]
+position = Vector3(-1.5, 0, 4.0)
+[node name="Crop03" parent="World" instance=ExtResource("22_wheat")]
+position = Vector3(-0.5, 0, 4.0)
+[node name="Crop04" parent="World" instance=ExtResource("22_wheat")]
+position = Vector3(-2.5, 0, 3.0)
+[node name="Crop05" parent="World" instance=ExtResource("22_wheat")]
+position = Vector3(-1.5, 0, 3.0)
+[node name="Crop06" parent="World" instance=ExtResource("22_wheat")]
+position = Vector3(-0.5, 0, 3.0)
+
+[node name="Tree01" parent="World" instance=ExtResource("18_tree")]
+position = Vector3(-9, 0, -5)
+[node name="Tree02" parent="World" instance=ExtResource("18_tree")]
+position = Vector3(9, 0, -5)
+[node name="Tree03" parent="World" instance=ExtResource("18_tree")]
+position = Vector3(9, 0, 5)
+[node name="Tree04" parent="World" instance=ExtResource("18_tree")]
+position = Vector3(-9, 0, 5)
+[node name="Tree05" parent="World" instance=ExtResource("18_tree")]
+position = Vector3(8, 0, 8)
+
+[node name="Rock01" parent="World" instance=ExtResource("19_rock")]
+position = Vector3(-7, 0, -3)
+[node name="Rock02" parent="World" instance=ExtResource("19_rock")]
+position = Vector3(8, 0, 3)
+
+[node name="Fence01" parent="World" instance=ExtResource("20_fence")]
+position = Vector3(-4, 0, -6)
+scale = Vector3(3, 1, 1)
+[node name="Fence02" parent="World" instance=ExtResource("20_fence")]
+position = Vector3(4, 0, -6)
+scale = Vector3(3, 1, 1)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(18, 19, 20)
+projection = 1
+size = 22.0
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-52, -35, 0)
+light_energy = 1.2
+shadow_enabled = true
+
+[node name="FillLight" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-25, 145, 0)
+light_energy = 0.35
 
 [node name="UI" type="CanvasLayer" parent="."]
-
-[node name="Title" type="Label" parent="UI"]
-offset_left = 28.0
-offset_top = 20.0
-text = "YUSUF İLE ELİF: BEREKETLİ ÇİFTLİĞİ"
-theme_override_font_sizes/font_size = 26
-
-[node name="Info" type="Label" parent="UI"]
-offset_left = 30.0
-offset_top = 60.0
-text = "V0.4 Çiftlik Çekirdeği — Kamera • Tarla • Yerleştirme • Ekonomi"
-theme_override_font_sizes/font_size = 16
-
-[node name="Status" type="Label" parent="UI"]
-offset_left = 30.0
-offset_top = 100.0
-text = "Hazırlanıyor..."

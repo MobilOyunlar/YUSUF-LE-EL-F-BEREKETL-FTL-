@@ -1,7 +1,8 @@
 [application]
 
 config/name="Yusuf ile Elif: Bereketli Çiftliği"
-run/main_scene="res://scenes/FarmMain.tscn"
+config/icon="res://Assets/UI/app_icon.svg"
+run/main_scene="res://scenes/Main.tscn"
 
 [display]
 
@@ -17,8 +18,15 @@ renderer/rendering_method.mobile="gl_compatibility"
 environment/defaults/default_clear_color=Color(0.72, 0.88, 0.96, 1)
 
 [autoload]
+AudioManager="*res://scripts/core/audio_manager.gd"
+GameConfig="*res://scripts/data/game_config.gd"
+EconomyManager="*res://scripts/economy/economy_manager.gd"
+StoreManager="*res://scripts/store/store_manager.gd"
+PromotionManager="*res://scripts/store/promotion_manager.gd"
+SocialRewardManager="*res://scripts/social/social_reward_manager.gd"
 
 GameData="*res://scripts/core/game_data.gd"
+SettingsManager="*res://scripts/core/settings_manager.gd"
 Localization="*res://scripts/core/localization.gd"
 FarmState="*res://scripts/farm/farm_state.gd"
-Economy="*res://scripts/economy/economy.gd"
+LandManager="*res://scripts/farm/land_manager.gd"

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9be26d"/><stop offset="1" stop-color="#3c9b55"/></linearGradient></defs>
+<rect width="1200" height="600" rx="70" fill="#10251a"/>
+<circle cx="600" cy="230" r="120" fill="url(#g)"/>
+<path d="M600 110 C535 175 535 250 600 285 C665 250 665 175 600 110Z" fill="#eaffd6"/>
+<text x="600" y="405" text-anchor="middle" font-family="sans-serif" font-size="112" font-weight="900" fill="#ffffff">LUMORIX</text>
+<text x="600" y="475" text-anchor="middle" font-family="sans-serif" font-size="42" font-weight="700" fill="#bfe9a8">GAMER STUDIO</text>
+</svg>

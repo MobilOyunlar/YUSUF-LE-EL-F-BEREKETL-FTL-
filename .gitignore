@@ -20,3 +20,10 @@ credentials.json
 service-account.json
 google-services.json
 secrets.json
+
+# Local build artifacts
+build/
+
+# Godot generated import / UID files
+*.import
+*.uid

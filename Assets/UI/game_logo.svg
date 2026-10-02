@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd8ff"/>
+      <stop offset="1" stop-color="#e9f8ff"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c77a3a"/>
+      <stop offset="1" stop-color="#75421f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="512" rx="72" fill="url(#sky)"/>
+  <circle cx="115" cy="105" r="48" fill="#ffd85c"/>
+  <path d="M0 335 Q250 235 510 325 Q760 220 1024 315 L1024 512 L0 512Z" fill="#79bf58"/>
+  <path d="M0 405 Q250 310 520 400 Q770 310 1024 390 L1024 512 L0 512Z" fill="#e5c55a"/>
+  <g transform="translate(690 245)">
+    <path d="M-92 55 L0 -25 L92 55Z" fill="url(#wood)" stroke="#563019" stroke-width="9"/>
+    <rect x="-70" y="50" width="140" height="95" rx="7" fill="#f5e1b8" stroke="#563019" stroke-width="9"/>
+    <rect x="-14" y="90" width="28" height="55" rx="5" fill="#70401f"/>
+    <rect x="-55" y="75" width="28" height="28" rx="4" fill="#8bd4e8"/>
+    <rect x="27" y="75" width="28" height="28" rx="4" fill="#8bd4e8"/>
+  </g>
+  <path d="M95 370 Q150 335 205 370" fill="none" stroke="#3f9148" stroke-width="20" stroke-linecap="round"/>
+  <path d="M230 380 Q255 325 280 380" fill="none" stroke="#3f9148" stroke-width="20" stroke-linecap="round"/>
+  <g transform="translate(105 410)">
+    <circle cx="0" cy="0" r="40" fill="#fff4d6" stroke="#70401f" stroke-width="8"/>
+    <text x="0" y="14" text-anchor="middle" font-family="sans-serif" font-size="34" font-weight="900" fill="#70401f">Y&amp;E</text>
+  </g>
+  <text x="535" y="145" text-anchor="middle" font-family="sans-serif" font-size="68" font-weight="900" fill="#fff6cf" stroke="#6a371b" stroke-width="12" paint-order="stroke">YUSUF İLE ELİF</text>
+  <text x="535" y="215" text-anchor="middle" font-family="sans-serif" font-size="54" font-weight="900" fill="#fff" stroke="#6a371b" stroke-width="10" paint-order="stroke">BEREKETLİ ÇİFTLİĞİ</text>
+  <text x="535" y="272" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#3b6f36">LUMORIX • GAMER STUDIO</text>
+</svg>
