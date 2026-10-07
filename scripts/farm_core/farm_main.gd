@@ -6,7 +6,6 @@ extends Node3D
 func _ready() -> void:
     var camera := $Camera3D
     camera.look_at(Vector3(0, 0, 1.5), Vector3.UP)
-    SettingsManager.apply_graphics_quality()
     _build_ui()
 
 func _build_ui() -> void:

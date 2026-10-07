@@ -1,6 +1,6 @@
 extends Control
 
-const FARM_SCENE := "res://scenes/FarmMain.tscn"
+const FARM_SCENE := "res://scenes/FarmWorldV01.tscn"
 const TR := "tr"
 const EN := "en"
 
@@ -77,9 +77,6 @@ var en := {
 }
 
 func _ready() -> void:
-    SettingsManager.load_settings()
-    AudioManager.apply_settings()
-    language = GameData.language
     _show_studio_splash()
 
 func T(key: String) -> String:
@@ -128,36 +125,8 @@ func _button(text_value: String, callback: Callable) -> Button:
     b.text = text_value
     b.custom_minimum_size = Vector2(420, 62)
     b.add_theme_font_size_override("font_size", 22)
-    b.pressed.connect(func():
-        AudioManager.play_click()
-        callback.call()
-    )
+    b.pressed.connect(callback)
     return b
-
-func _toggle_button(text_value: String, enabled: bool, callback: Callable) -> CheckButton:
-    var b := CheckButton.new()
-    b.text = text_value
-    b.button_pressed = enabled
-    b.custom_minimum_size = Vector2(420, 62)
-    b.add_theme_font_size_override("font_size", 22)
-    b.toggled.connect(func(value):
-        AudioManager.play_click()
-        callback.call(value)
-    )
-    return b
-
-func _sound_changed(value: bool) -> void:
-    SettingsManager.set_sound_enabled(value)
-    AudioManager.set_music_enabled(value)
-    AudioManager.set_effects_enabled(value)
-
-func _music_changed(value: bool) -> void:
-    SettingsManager.set_music_enabled(value)
-    AudioManager.set_music_enabled(value)
-
-func _effects_changed(value: bool) -> void:
-    SettingsManager.set_effects_enabled(value)
-    AudioManager.set_effects_enabled(value)
 
 func _show_studio_splash() -> void:
     _clear()
@@ -166,7 +135,7 @@ func _show_studio_splash() -> void:
     _logo("res://Assets/UI/lumorix_logo.svg", box, 330)
     var t := _label("LUMORIX\nGamer Studio", 30)
     box.add_child(t)
-    await get_tree().create_timer(2.0).timeout
+    await get_tree().create_timer(1.0).timeout
     _show_welcome()
 
 func _show_welcome() -> void:
@@ -190,7 +159,6 @@ func _show_language_select() -> void:
 
 func _set_language(value: String) -> void:
     language = value
-    SettingsManager.set_language(value)
     _show_main_menu()
 
 func _show_main_menu() -> void:
@@ -205,7 +173,6 @@ func _show_main_menu() -> void:
     box.add_child(_button("ℹ  " + T("about_game"), _show_game_about))
     box.add_child(_button("🏢  " + T("about_company"), _show_company_about))
     var lang := _button("🌐  " + T("language") + ": " + T("select_language"), _show_language_select)
-    AudioManager.play_menu_music()
     box.add_child(lang)
 
 func _panel(title: String) -> VBoxContainer:
@@ -225,29 +192,25 @@ func _show_settings() -> void:
     var q := OptionButton.new()
     q.custom_minimum_size = Vector2(420, 56)
     for k in ["low", "medium", "high", "ultra"]: q.add_item(T(k))
-    var quality_names := ["low", "medium", "high", "ultra"]
-    var current_quality := str(GameData.settings.get("graphics_quality", "medium"))
-    var current_index := quality_names.find(current_quality)
-    q.select(current_index if current_index >= 0 else 1)
+    q.select(1)
     q.item_selected.connect(func(index): _quality_changed(index))
     box.add_child(q)
-    box.add_child(_toggle_button("🔊  " + T("sound"), bool(GameData.settings.get("sound_enabled", true)), func(value): _sound_changed(value)))
-    box.add_child(_toggle_button("🎵  " + T("music"), bool(GameData.settings.get("music_enabled", true)), func(value): _music_changed(value)))
-    box.add_child(_toggle_button("✨  " + T("effects"), bool(GameData.settings.get("effects_enabled", true)), func(value): _effects_changed(value)))
-    box.add_child(_button("🎁  LUMORIX Sosyal Medya", _show_social_media))
+    box.add_child(_button("🔊  " + T("sound"), func(): pass))
+    box.add_child(_button("🎵  " + T("music"), func(): pass))
+    box.add_child(_button("✨  " + T("effects"), func(): pass))
     _back_button(box)
 
 func _quality_changed(index: int) -> void:
     var names := ["low", "medium", "high", "ultra"]
     if index >= 0 and index < names.size():
-        SettingsManager.set_graphics_quality(names[index])
+        ProjectSettings.set_setting("display/window/quality", names[index])
+        ProjectSettings.save()
 
 func _show_account() -> void:
     var box := _panel(T("account"))
     box.add_child(_label(T("account_note"), 18))
-    box.add_child(_label("Google / Play Games ve Apple hesap bağlantısı Android/iOS mağaza aşamasında etkinleştirilecektir.", 16))
-    box.add_child(_button("▶  " + T("google"), func(): _show_notice("Google / Play Games hesap bağlantısı henüz etkin değil.")))
-    box.add_child(_button("  " + T("apple"), func(): _show_notice("Apple hesap bağlantısı henüz etkin değil.")))
+    box.add_child(_button("▶  " + T("google"), func(): _show_notice(T("coming"))))
+    box.add_child(_button("  " + T("apple"), func(): _show_notice(T("coming"))))
     _back_button(box)
 
 func _show_notice(message: String) -> void:
@@ -272,30 +235,3 @@ func _show_company_about() -> void:
     l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
     box.add_child(l)
     _back_button(box)
-
-func _show_social_media() -> void:
-    var box := _panel("LUMORIX sosyal medya")
-    box.add_child(_label("Resmi hesaplarımızı ziyaret et.", 18))
-
-    for account in SocialRewardManager.get_accounts():
-        var account_id := str(account.get("id", ""))
-        var account_name := str(account.get("name", ""))
-        var handle := str(account.get("handle", ""))
-        var reward := int(account.get("reward", 0))
-        var claimed := SocialRewardManager.has_claimed(account_id)
-
-        var label_text := ""
-        if claimed:
-            label_text = "✓ "
-        label_text += account_name + "  " + handle + "  +" + str(reward) + " 💎"
-
-        box.add_child(_button(label_text, _open_social.bind(account_id)))
-
-    _back_button(box)
-
-func _open_social(account_id: String) -> void:
-    for account in SocialRewardManager.get_accounts():
-        if str(account.get("id", "")) == account_id:
-            OS.shell_open(str(account.get("url", "")))
-            return
-

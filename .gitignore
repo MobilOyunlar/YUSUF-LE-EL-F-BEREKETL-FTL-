@@ -23,7 +23,3 @@ secrets.json
 
 # Local build artifacts
 build/
-
-# Godot generated import / UID files
-*.import
-*.uid
